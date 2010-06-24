@@ -1,0 +1,7 @@
+name        = Elsinore
+description = Helsingør theme
+screenshot  = screenshot.png
+version     = dev 1
+core        = 6.x
+engine      = phptemplate
+base theme  = dynamo
