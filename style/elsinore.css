@@ -1,0 +1,116 @@
+body{background: #DDD url(../images/bg.png) repeat}
+#container {background:none;}
+#pageheader{background: transparent url('../images/bg-header.png') no-repeat 0 0; width: 994px; height: 316px; position:relative;}
+	#site-name {height:38px; width:168px; margin:0; padding:0; position:absolute; top:50px; left:55px;}
+    #site-name a{text-indent: -9999em;}
+	  #site-name a{height:38px; width:168px; display: block; overflow:hidden; background:transparent url(../images/logo.png) no-repeat 0 0;}
+
+    #path {margin:5px 57px 0;}
+    #top{height:281px}
+      #ting-search-form{background:none; padding:0; margin:0; position:absolute; top:183px; left:54px; width:355px;}
+        #ting-search-form .form-text {height:31px; width:289px; padding:0; margin:0 4px 0 0; border: 0px solid #999;}
+        #ting-search-form .form-button {padding:0;}
+        #ting-search-form .form-submit {border: 1px solid #e3dfd5; background:#e3dfd5; height:30px;}
+        
+        #account {position:absolute; top:110px; left:766px; margin:0;}
+        #user-login-form{background:url("../images/logind.png") no-repeat scroll 0 0 transparent;}
+        #edit-name-wrapper input {width:180px; border:none;}
+        #user-login-form .form-text {background:#eeece6;}
+        #edit-pass-wrapper, #edit-pass-wrapper input {width:130px;}
+        #account #edit-remember-me-wrapper label {color:#999;}
+        
+
+    #pagebody {background: transparent url('../images/bg-page-top.png') no-repeat scroll top left; padding-top:34px;    }
+      #pagebody-inner{background: url('../images/bg-page.png') repeat-y top left; padding:0 0 0 54px;}
+      #content-inner {margin:0;}
+      
+.panel-threecol-33-34-33-stacked .panel-left{width:459px}
+.panel-threecol-33-34-33-stacked .panel-middle{width:210px}
+.panel-threecol-left-stacked .panel-left .view-article-list { width:440px;}
+.panel-threecol-left-stacked .panel-left  {background:none;}
+      
+ #pagefooter{background: url('../images/bg-page-footer.png') no-repeat scroll top left; padding:40px 0 20px 0; height:240px;}     
+  #pagefooter-inner {background:none;}
+  #pagefooter-inner div.left {background:none;}
+  
+/*menu*/  
+#navigation{height: 36px;}
+#navigation-inner {margin:0 30px;}
+#navigation li{height:30px; text-align:center; padding:0 10px;}
+  #navigation li.active-trail {border-bottom: 5px solid #da511f; font-weight:bold;}
+  #navigation li a{color:#333333; padding:2px 0 0 0;}
+  #navigation li a:hover{color:#999}
+  
+/**/  
+  .content-top {background:none; left:0px;  padding:0}     
+  .panel-threecol-33-34-33-stacked .panel-middle, .panel-threecol-33-34-33-stacked .panel-left  {background:none; border:none;}
+  
+/*FONTS & COLORS*/
+  h2 {font-size:22px;  line-height:24px;text-transform: uppercase; }
+  h2 a, h2 a:link, h2 a:visited, h2 a:active, h3 a, h3 a:link, h3 a:visited, h3 a:active {color:#da511f;}
+
+  .subject a, .subject a:link, .subject a:visited, .subject a:active {background-color:#006889; padding:2px; line-height:22px;}
+  .meta a, .meta a:link, .meta a:visited, .meta a:active {color:#88734c;}
+  .meta ul li, .view .meta ul li {border:none!important;}
+  a, a:link, a:visited, a:active, ul.pager li a {color:#88734c;}
+ 
+ #event-list h3,.ding-box-pane h3,.ding-box-wide h3 {background:#88734c none; color:#fff; margin:0; padding:3px; font-weight:normal;}
+ 
+ /*boxes*/
+ .panel-threecol-left-stacked .panel-middle .ding-box-pane {margin:0;}
+ .ding-box-pane .pane-library_feature_list ul.item-list {padding:0;}
+  .ding-box-pane{background:none;}
+
+  .ding-box-pane ul {background:none;}
+  .ding-box-pane ul li {  margin:0;  padding:0;  width:200px; }  
+  .ding-box-pane .pane-library_hours {background:none;}
+  .ding-box-pane .odd {background:none;}
+  .ding-box-wide,.ding-box-wide ul {background:none;}
+  
+
+.library-info,.library-info-inner,
+.library-info .library-map {background:none; padding:0;}
+.library-info .vcard {padding:0;}
+
+.pane-library_title ul.item-list{display:none;}
+
+body.page-arrangementer .panel-middle, body.ding-arrangementer .panel-middle, .tab-navigation-main {background:none;}
+.view-event-list ul li{padding:0 0 10px 0;}
+
+.tab-navigation li, .page-arrangementer .panel-left ul li, .ding-arrangementer .panel-left ul li, .ding-ting-collection .panel-left ul li, .tab-navigation ul li {border:none;}
+ 
+.pane-tagadelic-2{background:none; padding:0;}
+/* artcile listings */  
+.panel-left .view ul li, 
+.panel-left ul.item-list li, 
+.panel-left .pane-library_feature_detail_list ul li,
+.pane-event_list-panel_pane_1 .view-event-list li  {background:none;  margin:0;  padding:5px 0px;  border-top: 1px solid #e9e6e0; }  
+
+.panel-left .view, .panel-left .pane-library_feature_detail_list ul.item-list {left:0px;}
+.panel-threecol-33-34-33-stacked .panel-left .view-article-list {width:440px;}
+
+/*biblo liste*/
+body.page-biblioteker .panel-left .view ul li {clear:both; padding:5px 0 5px 0;}
+.view-library-list .picture{width:120px; height:120px; float:left; }
+.view-library-list .content{width:365px; float:left;}
+.view-library-list .office-hours-week{width:200px; float:left;}
+
+/*calendar*/
+#event-list li{background:none; padding:5px 0 0 0;}
+#event-list li .calendar-leafs .leaf, #event-list li .calendar-leafs .leaf.today{background:none;}
+#event-list li .calendar-leafs .leaf{padding:0; margin:0 5px 5px 0;}
+#event-list li div.leaf .day {background-color: #d54b03;}
+#event-list li div.leaf {border-right: 1px solid #f2f2f2; border-bottom: 1px solid #f2f2f2}
+#event-list li .calendar-leafs .info {width:145px}
+#event-list .view-footer{margin:0; font-size:10px; border-top: 1px solid #f2f2f2}
+  #event-list .more-link {padding:0 5px 0 0; float:right;}
+
+.feed-icon{float:left;  font-size:10px}
+.more-link a, a.more-link {background:none}
+
+/*pagers*/
+body.page-arrangementer .panel-middle .view-event-list ul.pager li, #pager div.navwide, #pager div.nav, ul.pager li, ul.pager li.pager-next, ul.pager li.pager-item, ul.pager li.pager-last, ul.pager li.pager-previous, ul.pager li.pager-first, .panel-left ul.pager li.pager-first, #ting-result-pager ul li.current, .panel-left ul.pager li.pager-current {background:none; padding:10px 0;}
+#pager, ul.pager {background:none};
+
+
+
