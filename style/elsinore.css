@@ -45,11 +45,12 @@ body{background: #DDD url(../images/bg.png) repeat}
       
  #pagefooter{background: url('../images/bg-page-footer.png') no-repeat scroll top left; padding:40px 0 20px 0; height:240px;}     
   #pagefooter-inner {background:none; padding:0 0 0 54px;}
-  #pagefooter-inner div.block {background:none; margin:0 20px 0 0; float:left; min-height:200px;}
-  #pagefooter-inner ul li.expanded{float:left;}
+
+  #pagefooter-inner ul li.expanded{float:left; padding:0 20px 0 0;}
+  #pagefooter-inner ul li span.nolink{padding:0 0 10px 0; width:120px; display:block; text-transform:uppercase; color:#da511f;}  
   #pagefooter-inner ul.menu li.expanded ul.menu {margin:0}
   #pagefooter-inner ul.menu li.leaf {margin:0}
-  
+  #pagefooter ul li a {background:none; padding:0;}  
   
 /*menu*/  
 #navigation{height: 36px;}
