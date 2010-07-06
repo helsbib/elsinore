@@ -19,7 +19,7 @@ body{background: #DDD url(../images/bg.png) repeat}
         #edit-pass-wrapper, #edit-pass-wrapper input {width:130px;}
         #account #edit-remember-me-wrapper label {color:#999;}
         #account a {color:#000;}
-          #account-profile {    width:160px; padding:5px; margin-top:50px; background:#e3dfd5; margin:10px; }
+          #account-profile {width:190px; padding:5px; margin-top:50px; background:#e3dfd5; margin:10px;}
           #account-profile h5 {color:#999;}
           #account-profile div.logout {margin:0}
           #account-profile div.logout a {background:none; padding:0;}
@@ -59,6 +59,9 @@ body{background: #DDD url(../images/bg.png) repeat}
   .meta a, .meta a:link, .meta a:visited, .meta a:active {color:#88734c;}
   .meta ul li, .view .meta ul li {border:none!important;}
   a, a:link, a:visited, a:active, ul.pager li a {color:#88734c;}
+ 
+  ul.menu li.leaf > a.active, ul.menu li > a.active, li.active-trail > a {color:#88734c;  font-weight:bold;  }
+ 
  
  #event-list h3,.ding-box-pane h3,.ding-box-wide h3 {background:#88734c none; color:#fff; margin:0; padding:3px; font-weight:normal;}
  
