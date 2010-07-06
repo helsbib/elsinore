@@ -7,13 +7,18 @@ body{background: #DDD url(../images/bg.png) repeat}
 
     #path {margin:5px 57px 0;}
 
-    #helpers{position:absolute; top:30px; left:766px; margin:0; width:210px;}
-    #helpers li{float:left; margin-right:20px; font-size:10px;}
+    #helpers{position:absolute; top:30px; left:766px; margin:0; width:230px; }
+      #helpers li{float:left; margin-right:20px; font-size:10px;}
+      #helpers li .print{background: transparent url(../images/printer.png) no-repeat 0 0; padding:0 0 0 20px;}
+      #helpers li .read{background: transparent url(../images/bog.png) no-repeat 0 0; padding:0 0 0 20px;}
+      #helpers li .english{background: transparent url(../images/uk.png) no-repeat 0 0; padding:0 0 0 30px;}      
+
     #top{height:281px}
       #ting-search-form{background:none; padding:0; margin:0; position:absolute; top:183px; left:54px; width:355px;}
         #ting-search-form .form-text {height:31px; width:289px; padding:0; margin:0 4px 0 0; border: 0px solid #999;}
         #ting-search-form .form-button {padding:0; float:left;}
         #ting-search-form .form-submit {border: 1px solid #e3dfd5; background:#e3dfd5; height:30px;}
+
         
         #account {position:absolute; top:110px; left:766px; margin:0; width:210px;}
         #user-login-form{background:url("../images/logind.png") no-repeat scroll 0 0 transparent;}
