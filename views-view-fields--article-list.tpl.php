@@ -1,3 +1,5 @@
+<!-- come om sugar baby -->
+
 <!-- views-view-fields article-list.tpl.php -->
 
 <div class="subject"><?php print $fields['tid']->content; ?> </div>
@@ -32,7 +34,7 @@ if($fields['field_teaser_value']->content OR $fields['body']->content){
 	<p>
  	<?php print $fields['field_teaser_value']->content; ?>  
  	<?php print $fields['body']->content; ?>    
-  image?
+  <h2>image</h2>
   <?php //print $fields['field_list_image']; ?>     	
  	
 	<span class="more-link"><?php print $fields['view_node']->content; ?></span>
@@ -44,3 +46,5 @@ if($fields['field_teaser_value']->content OR $fields['body']->content){
 	<?php print $fields['edit_node']->content; ?>
 <?php } ?>
 
+
+<!-- come om sugar baby -->
