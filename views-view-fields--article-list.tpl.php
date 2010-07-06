@@ -32,7 +32,7 @@ if($fields['field_teaser_value']->content OR $fields['body']->content){
 	<p>
  	<?php print $fields['field_teaser_value']->content; ?>  
  	<?php print $fields['body']->content; ?>    
-  
+  image?
   <?php print pre($fields['field_list_image']); ?>     	
  	
 	<span class="more-link"><?php print $fields['view_node']->content; ?></span>
