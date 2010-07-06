@@ -125,4 +125,6 @@ body.page-arrangementer .panel-middle .view-event-list ul.pager li, #pager div.n
 #pager, ul.pager {background:none};
 
 
+/*campaigns*/
+.campaign-text a,.campaign-text a:link, .campaign-text a:visited,.campaign-text a:active {background:none; color:#fff;}
 
