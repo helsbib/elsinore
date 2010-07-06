@@ -29,8 +29,9 @@ body{background: #DDD url(../images/bg.png) repeat}
       #pagebody-inner{background: url('../images/bg-page.png') repeat-y top left; padding:0 0 0 54px;}
       #content-inner {margin:0;}
       
-.panel-threecol-33-34-33-stacked .panel-left{width:459px}
-.panel-threecol-33-34-33-stacked .panel-middle{width:210px}
+.panel-threecol-33-34-33-stacked .panel-left{width:450px; padding-right:10px}
+.panel-threecol-33-34-33-stacked .panel-middle{width:210px; padding-right:20px;}
+
 .panel-threecol-left-stacked .panel-left .view-article-list { width:440px;}
 .panel-threecol-left-stacked .panel-left  {background:none;}
       
