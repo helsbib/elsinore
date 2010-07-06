@@ -119,22 +119,7 @@
         <div id="pagefooter">
           <div id="pagefooter-inner" class="clearfix">
 
-            <div class="left first">
-              <?php print $footer_one; ?>
-            </div>
-
-            <div class="left">
-              <?php print $footer_two; ?>
-            </div>
-
-            <div class="left">
-              <?php print $footer_three; ?>             
-            </div>
-
-            <div class="left">
-              <?php print $footer_four; ?>              
               <?php print $footer; ?>
-            </div>
       
           </div>
         </div>
