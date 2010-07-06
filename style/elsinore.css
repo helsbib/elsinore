@@ -63,7 +63,10 @@ body{background: #DDD url(../images/bg.png) repeat}
   ul.menu li.leaf > a.active, ul.menu li > a.active, li.active-trail > a {color:#88734c;  font-weight:bold;  }
  
  
- #event-list h3,.ding-box-pane h3,.ding-box-wide h3 {background:#88734c none; color:#fff; margin:0; padding:3px; font-weight:normal;}
+.panel-right h3, #event-list h3,.ding-box-pane h3,.ding-box-wide h3 {background:#88734c none; color:#fff; margin:0; padding:3px; font-weight:normal;}
+
+
+  .panel-right ul.menu li.leaf {margin:0}
  
  /*boxes*/
  .panel-threecol-left-stacked .panel-middle .ding-box-pane {margin:0;}
@@ -102,7 +105,7 @@ body.page-arrangementer .panel-middle, body.ding-arrangementer .panel-middle, .t
 body.page-biblioteker .panel-left .view ul li {clear:both; padding:5px 0 5px 0;}
 .view-library-list .picture{width:120px; height:120px; float:left; }
 .view-library-list .content{width:365px; float:left;}
-.view-library-list .office-hours-week{width:200px; float:left;}
+
 
 /*calendar*/
 #event-list li{background:none; padding:5px 0 0 0;}

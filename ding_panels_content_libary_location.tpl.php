@@ -19,8 +19,6 @@
     </div>
   </div>
 
-
-
 	<div class="library-info-inner">
 
 	  <div class="vcard">
