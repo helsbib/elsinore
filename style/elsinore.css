@@ -6,10 +6,13 @@ body{background: #DDD url(../images/bg.png) repeat}
 	  #site-name a{height:38px; width:168px; display: block; overflow:hidden; background:transparent url(../images/logo.png) no-repeat 0 0;}
 
     #path {margin:5px 57px 0;}
+
+    #helpers{position:absolute; top:30px; left:766px; margin:0; width:210px;}
+    #helpers li{float:left; margin-right:20px; font-size:10px;}
     #top{height:281px}
       #ting-search-form{background:none; padding:0; margin:0; position:absolute; top:183px; left:54px; width:355px;}
         #ting-search-form .form-text {height:31px; width:289px; padding:0; margin:0 4px 0 0; border: 0px solid #999;}
-        #ting-search-form .form-button {padding:0;}
+        #ting-search-form .form-button {padding:0; float:left;}
         #ting-search-form .form-submit {border: 1px solid #e3dfd5; background:#e3dfd5; height:30px;}
         
         #account {position:absolute; top:110px; left:766px; margin:0; width:210px;}
@@ -38,6 +41,10 @@ body{background: #DDD url(../images/bg.png) repeat}
  #pagefooter{background: url('../images/bg-page-footer.png') no-repeat scroll top left; padding:40px 0 20px 0; height:240px;}     
   #pagefooter-inner {background:none; padding:0 0 0 54px;}
   #pagefooter-inner div.block {background:none; margin:0 20px 0 0; float:left; min-height:200px;}
+  #pagefooter-inner ul li.expanded{float:left;}
+  #pagefooter-inner ul.menu li.expanded ul.menu {margin:0}
+  #pagefooter-inner ul.menu li.leaf {margin:0}
+  
   
 /*menu*/  
 #navigation{height: 36px;}
@@ -63,11 +70,12 @@ body{background: #DDD url(../images/bg.png) repeat}
   ul.menu li.leaf > a.active, ul.menu li > a.active, li.active-trail > a {color:#88734c;  font-weight:bold;  }
  
  
-.panel-right h3, #event-list h3,.ding-box-pane h3,.ding-box-wide h3 {background:#88734c none; color:#fff; margin:0; padding:3px; font-weight:normal;}
+.panel-right h3, #event-list h3,.ding-box-pane h3,.ding-box-wide h3 {background:#88734c none; color:#fff; margin:0; padding:0px 0 2px 10px; font-weight:normal; font-size:10px; text-transform:uppercase;}
 
 
   .panel-right ul.menu li.leaf {margin:0}
- 
+  .panel-right  ul.menu li.leaf a {background: transparent url(../images/arrow.png) no-repeat 0  5px; padding:0 0  0 10px; font-size:9px;text-transform:uppercase;  color:#000; margin-left:5px;}
+
  /*boxes*/
  .panel-threecol-left-stacked .panel-middle .ding-box-pane {margin:0;}
  .ding-box-pane .pane-library_feature_list ul.item-list {padding:0;}

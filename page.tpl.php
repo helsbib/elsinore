@@ -50,6 +50,13 @@
               </a>
             </<?php print $site_name_element; ?>>
 
+
+            <ul id="helpers">
+             <li> <a class="print" href="http://example.com/">print</a></li>
+             <li> <a class="read" href="http://example.com/">læs op</a></li>
+             <li> <a class="english" href="http://example.com/">english</a></li>
+            </ul>
+            
             <div id="top" class="clearfix">
 
               <div id="search" class="left">
