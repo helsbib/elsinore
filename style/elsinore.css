@@ -59,7 +59,7 @@ body{background: #DDD url(../images/bg.png) repeat}
   #navigation li.active-trail {border-bottom: 5px solid #da511f; font-weight:bold;}
   #navigation li a{color:#333333; padding:2px 0 0 0;}
   #navigation li a:hover{color:#999}
-  
+  #navigation li.active a, #navigation a:hover  {  color:#999}
 /**/  
   .content-top {background:none; left:0px;  padding:0}     
   .panel-threecol-33-34-33-stacked .panel-middle, .panel-threecol-33-34-33-stacked .panel-left  {background:none; border:none;}
@@ -136,9 +136,10 @@ body.page-biblioteker .panel-left .view ul li {clear:both; padding:5px 0 5px 0;}
 
 /*pagers*/
 body.page-arrangementer .panel-middle .view-event-list ul.pager li, #pager div.navwide, #pager div.nav, ul.pager li, ul.pager li.pager-next, ul.pager li.pager-item, ul.pager li.pager-last, ul.pager li.pager-previous, ul.pager li.pager-first, .panel-left ul.pager li.pager-first, #ting-result-pager ul li.current, .panel-left ul.pager li.pager-current {background:none; padding:10px 0;}
-#pager, ul.pager {background:none};
+#pager, ul.pager {background:none}
 
 
 /*campaigns*/
+.campaign-type-text-only,.campaign-inner,.campaign-text {background:none;}
 .campaign-text a,.campaign-text a:link, .campaign-text a:visited,.campaign-text a:active {background:none; color:#fff;}
 
