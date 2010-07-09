@@ -130,8 +130,13 @@
               <?php print $footer; ?>
       
           </div>
+        
+          <div class="footerlink">
+            <a href="/om-hjemmesiden">om hjemmesiden </a>
+          </div>
         </div>
 
+        
       </div>
     </div>
 
