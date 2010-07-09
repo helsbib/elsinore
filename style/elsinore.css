@@ -9,18 +9,18 @@ body{background: #DDD url(../images/bg.png) repeat}
 
     #helpers{position:absolute; top:30px; left:766px; margin:0; width:230px; }
       #helpers li{float:left; margin-right:20px; font-size:10px;}
-      #helpers li .print{background: transparent url(../images/printer.png) no-repeat 0 0; padding:0 0 0 20px;}
-      #helpers li .read{background: transparent url(../images/bog.png) no-repeat 0 0; padding:0 0 0 20px;}
-      #helpers li .english{background: transparent url(../images/uk.png) no-repeat 0 0; padding:0 0 0 30px;}      
+      #helpers li .print{background: transparent url(../images/printer.png) no-repeat 0 center; padding:5px 0 5px 20px;}
+      #helpers li .read{background: transparent url(../images/bog.png) no-repeat 0 center; padding:5px 0 5px 20px;}
+      #helpers li .english{background: transparent url(../images/uk.png) no-repeat 0 center; padding:5px 0 5px 30px;}      
 
     #top{height:281px}
       #ting-search-form{background:none; padding:0; margin:0; position:absolute; top:183px; left:54px; width:355px;}
         #ting-search-form .form-text {height:31px; width:289px; padding:0; margin:0 4px 0 0; border: 0px solid #999;}
         #ting-search-form .form-button {padding:0; float:left;}
         #ting-search-form .form-submit {border: 1px solid #e3dfd5; background:#e3dfd5; height:30px;}
-
+        #ting-search-form div.example{display:none;}
         
-        #account {position:absolute; top:110px; left:766px; margin:0; width:210px;}
+        #account {position:absolute; top:120px; left:766px; margin:0; width:210px;}
         #user-login-form{background:url("../images/logind.png") no-repeat scroll 0 0 transparent;}
         #edit-name-wrapper input {width:180px; border:none;}
         #user-login-form .form-text {background:#eeece6;}
@@ -59,7 +59,7 @@ body{background: #DDD url(../images/bg.png) repeat}
   #navigation li.active-trail {border-bottom: 5px solid #da511f; font-weight:bold;}
   #navigation li a{color:#333333; padding:2px 0 0 0;}
   #navigation li a:hover{color:#999}
-  #navigation li.active a, #navigation a:hover  {  color:#999}
+  #navigation li.active a, #navigation a:hover  {color:#000; font-weight:bold;}
 /**/  
   .content-top {background:none; left:0px;  padding:0}     
   .panel-threecol-33-34-33-stacked .panel-middle, .panel-threecol-33-34-33-stacked .panel-left  {background:none; border:none;}
@@ -142,4 +142,3 @@ body.page-arrangementer .panel-middle .view-event-list ul.pager li, #pager div.n
 /*campaigns*/
 .campaign-type-text-only,.campaign-inner,.campaign-text {background:none;}
 .campaign-text a,.campaign-text a:link, .campaign-text a:visited,.campaign-text a:active {background:none; color:#fff;}
-

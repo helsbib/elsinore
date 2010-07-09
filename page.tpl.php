@@ -54,8 +54,8 @@
             <ul id="helpers">
               
              <li> <a class="print" href="javascript:window.print();">Print</a></li>
-             <li> <a class="read" href="http://example.com/">læs op</a></li>
-             <li> <a class="english" href="http://example.com/">english</a></li>
+             <li> <a class="read" href="http://adgangforalle.dk">Læs op</a></li>
+             <li> <a class="english" href="#">English</a></li>
             </ul>
             
             <div id="top" class="clearfix">
