@@ -52,6 +52,33 @@ body{background: #DDD url(../images/bg.png) repeat}
   #pagefooter-inner ul.menu li.leaf {margin:0}
   #pagefooter ul li a {background:none; padding:0;}  
   
+  
+/*typograhy*/  
+  body, caption, th, td, input, textarea, select, option, legend, fieldset {font-family: Arial,helvetica,sans-serif;}
+  body {color: #222;font-size: 12px;}
+  h2 {font-size: 21px;line-height:22px;}
+  h4 {font-size: 11px;font-weight: bold;}
+  .meta {color: #555;margin-top: 2px;}
+  a, a:link, a:visited, a:active {color:#006a87;}
+  .meta a,.meta a:link,.meta a:visited,.meta a:active {color:#006a87;}	
+  .author a,.author a:link,.author a:visited,.author a:active {color: #006a87;}
+  .subject a {background-color: #F26306;font-size:11px;line-height: 18px;padding:0 4px;display: inline-block;margin: 0 0 8px;}
+  h4 a, h4 a:link, h4 a:visited, h4 a:active {color:#222;font-size:11px;line-height:14px;}
+
+  #pagefooter h3, 
+  .pane-event_list h3, 
+  .pane-library_feature_list h3 {font-size:11px;line-height:22px;color: #555;}
+
+  #path, 
+  .subject a, 
+  .more-link a, 
+  .pane-event_list li div, 
+  .pane-event_list h4 a, 
+  .pane-library_feature_list ul li, 
+  .view-feature-list li div.title a {font-size:11px;}
+  
+  
+  
 /*menu*/  
 #navigation{height: 36px;}
 #navigation-inner {margin:0 30px;}
@@ -142,3 +169,5 @@ body.page-arrangementer .panel-middle .view-event-list ul.pager li, #pager div.n
 /*campaigns*/
 .campaign-type-text-only,.campaign-inner,.campaign-text {background:none;}
 .campaign-text a,.campaign-text a:link, .campaign-text a:visited,.campaign-text a:active {background:none; color:#fff;}
+
+
