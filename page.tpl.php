@@ -132,7 +132,7 @@
           </div>
         
           <div class="footerlink">
-            <a href="/om-hjemmesiden">om hjemmesiden </a>
+            <a href="/om-hjemmesiden">Om hjemmesiden </a>
           </div>
         </div>
 
@@ -141,6 +141,9 @@
     </div>
 
 </div>
+
+
+
 
 <?php print $closure; ?>
 </body>
