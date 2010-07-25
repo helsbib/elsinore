@@ -87,11 +87,12 @@ a {outline: none;}
 /*menu*/  
 #navigation{height: 36px;}
 #navigation-inner {margin:0 30px;}
-#navigation li{height:30px; text-align:center; padding:0 10px;}
+#navigation li{height:30px; text-align:center; padding:0; margin:0  0 0 10px; }
+#navigation li.first {padding:0 5px; margin:0 10px 0 0 }
   #navigation li.active-trail {border-bottom: 5px solid #da511f; font-weight:bold;}
-  #navigation li a{color:#333333; padding:2px 0 0 0;}
+  #navigation li a{color:#333333; padding:2px 10px 0 0; border:none; border-right: 1px solid #ddd;}
   #navigation li a:hover{color:#999}
-  #navigation li.active a, #navigation a:hover  {color:#000; font-weight:bold;}
+  #navigation li.active a, #navigation a:hover  {color:#000;}
 /**/  
   .content-top {background:none; left:0px;  padding:0}     
   .panel-threecol-33-34-33-stacked .panel-middle, .panel-threecol-33-34-33-stacked .panel-left  {background:none; border:none;}
@@ -177,14 +178,14 @@ body.page-arrangementer .panel-middle .view-event-list ul.pager li, #pager div.n
 /*featured frontpage thingie*/
 #featured{width:670px; position:relative; background:#fff; height:240px;}
 #featured ul.ui-tabs-nav{position:absolute; z-index:20; top:0; left:448px; list-style:none;  padding:0; margin:0;  width:220px;}
-  #featured ul.ui-tabs-nav li{color:#666; ;}
+  #featured ul.ui-tabs-nav li{color:#666; border:none;}
     #featured li.ui-tabs-nav-item a{color:#fff;display:block; background: url(../images/tab.png) no-repeat; width: 202px; height: 43px; overflow:hidden; font-weight:bold; padding:5px 0 0 20px;}
     #featured li.ui-tabs-nav-item a:hover{color:#333; }
     #featured li.ui-tabs-selected{}
     #featured ul.ui-tabs-nav li.ui-tabs-selected a{background: url(../images/tab-active.png) no-repeat; width: 202px; height: 43px; overflow:hidden;  padding-top:5px; color:#fff;}
     #featured ul.ui-tabs-nav-item.count-4 li.ui-tabs-selected a{background: url(../images/tab-active.png) no-repeat; width: 202px; height: 42px; overflow:hidden;  padding-top:5px; color:#fff;}
 
-  #featured .ui-tabs-panel{width:460px; height:240px; overflow:hidden; position:relative;}
+  #featured .ui-tabs-panel{width:460px; height:240px; overflow:hidden; position:relative; margin:0; padding:0;}
     #featured .ui-tabs-panel .image{position:absolute; z-index:1;}
     #featured .ui-tabs-panel .info{position:absolute; z-index:10; bottom:0; left:0; height:90px; width:460px; background: transparent url(../images/bluegbg-75.png); }
     #featured .ui-tabs-panel .info h3 {margin:10px 0 0 20px;}
