@@ -40,11 +40,17 @@ a {outline: none;}
       
 .panel-threecol-33-34-33-stacked .left{width:700px;}
 .panel-threecol-33-34-33-stacked .right{width:210px;float:left;}
+.panel-threecol-33-34-33-stacked .panel-top{width:670px; padding-right:20px; padding-bottom:20px; height:auto;}
 .panel-threecol-33-34-33-stacked .panel-top{width:670px; padding-right:20px; padding-bottom:20px;}
 .panel-threecol-33-34-33-stacked .panel-left{width:450px; padding-right:10px}
 .panel-threecol-33-34-33-stacked .panel-middle{width:210px; padding-right:20px;}
 
 .panel-threecol-left-stacked .panel-left .view-article-list { width:440px;}
+.panel-top {background:none}
+
+
+.view-article-list .content-image p{width:320px; float:left; padding:0;}
+.view-article-list a.imagecache img{width:120px; height:120px;float:left; background:#eee;}
 .panel-threecol-left-stacked .panel-left  {background:none;}
       
  #pagefooter{background: url('../images/bg-page-footer.png') no-repeat scroll top left; padding:40px 0 20px 0; height:240px;}     
@@ -176,6 +182,7 @@ body.page-arrangementer .panel-middle .view-event-list ul.pager li, #pager div.n
 .campaign-text a,.campaign-text a:link, .campaign-text a:visited,.campaign-text a:active {background:none; color:#fff;}
 
 /*featured frontpage thingie*/
+
 #featured{width:670px; position:relative; background:#fff; height:240px;}
 #featured ul.ui-tabs-nav{position:absolute; z-index:20; top:0; left:448px; list-style:none;  padding:0; margin:0;  width:220px;}
   #featured ul.ui-tabs-nav li{color:#666; border:none;}

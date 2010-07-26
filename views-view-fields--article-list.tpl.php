@@ -1,12 +1,17 @@
-<!-- come om sugar baby -->
-
 <!-- views-view-fields article-list.tpl.php -->
 
-<div class="subject"><?php print $fields['tid']->content; ?> </div>
+<?php 
+//dsm($fields); 
+//dsm($fields['field_list_image_fid']);
+?>
 
-<h2><?php print $fields['title']->content; ?></h2>
+  
 
-<div class="meta">
+  <div class="subject"><?php print $fields['tid']->content; ?> </div>
+
+  <h2><?php print $fields['title']->content; ?></h2>
+
+  <div class="meta">
 	 <?php if($fields['field_library_ref_nid']->content){ ?>
 	 <ul>
 	   <li><?php print $fields['field_library_ref_nid']->content; ?></li>
@@ -28,18 +33,21 @@
 
 </div>
 
-<?php 
-if($fields['field_teaser_value']->content OR $fields['body']->content){
-?>
-	<p>
- 	<?php print $fields['field_teaser_value']->content; ?>  
- 	<?php print $fields['body']->content; ?>    
 
-  <?php print $fields['field_list_image']; ?>     	
+<div class="<?php if($fields['field_list_image_fid']){ print "content-image";} ?> clearfix">
+  <p>
+ 	  <?php print $fields['field_teaser_value']->content; ?>  
+ 	  <?php print $fields['body']->content; ?>    
+  </p>
+
+  <?php print $fields['field_list_image_fid']->content; ?>     	  
+   
+ </div> 
  	
 	<span class="more-link"><?php print $fields['view_node']->content; ?></span>
-	</p>
-<?php } ?>
+
+
+
 
 
 <?php if($fields['edit_node']->content){ ?>
@@ -47,4 +55,3 @@ if($fields['field_teaser_value']->content OR $fields['body']->content){
 <?php } ?>
 
 
-<!-- come om sugar baby -->
