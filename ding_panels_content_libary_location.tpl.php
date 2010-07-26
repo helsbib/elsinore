@@ -11,6 +11,7 @@
  * http://microformats.org/wiki/hcard for more information.
  */
 ?>
+<!--ding_panels_content_libary_location.tpl.php-->
 <div class="library-info">
 
 	<div class="library-map">

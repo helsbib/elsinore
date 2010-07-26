@@ -48,6 +48,7 @@ a {outline: none;}
 .panel-threecol-left-stacked .panel-left .view-article-list { width:440px;}
 .panel-top {background:none}
 
+body.node-type-page .panel-threecol-left-stacked-right .panel-middle {background:none; padding:0;} 
 
 .view-article-list .content-image p{width:320px; float:left; padding:0;}
 .view-article-list a.imagecache img{width:120px; height:120px;float:left; background:#eee;}
