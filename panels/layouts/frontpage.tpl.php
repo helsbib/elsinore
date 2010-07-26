@@ -1,7 +1,6 @@
 <!--frontpage.tpl.php-->
 
-<div class="panel-threecol-33-34-33-stacked clearfix" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>	
-
+<div class="frontpage clearfix" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>	
 	<div class="panel-content">
     <div class="left">
     	<?php if (!empty($content['top'])): ?>

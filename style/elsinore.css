@@ -48,6 +48,26 @@ a {outline: none;}
 .panel-threecol-left-stacked .panel-left .view-article-list { width:440px;}
 .panel-top {background:none}
 
+
+
+.frontpage .panel-content .left{width:670px; padding-right:20px; float:left;}
+  .frontpage .panel-content .left .panel-top{width:670px; padding-right:20px; padding-bottom:20px; height:auto;}
+  .frontpage .panel-left{width:440px; padding-right:20px; float:left;}
+    .frontpage .panel-left .view-article-list { width:440px; float:left;}
+    .frontpage .panel-middle{width:210px; float:left;}
+.frontpage .panel-content .right{width:210px; float:left;}
+
+
+
+
+
+.basepage .panel-left{width:440px; padding-right:20px; float:left;}
+.basepage .panel-middle{width:210px; padding-right:20px; float:left;}
+.basepage .panel-right{width:210px;float:left;}
+
+
+
+
 body.node-type-page .panel-threecol-left-stacked-right .panel-middle {background:none; padding:0;} 
 
 .view-article-list .content-image p{width:320px; float:left; padding:0;}
