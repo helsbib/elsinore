@@ -27,7 +27,10 @@ a {outline: none;}
         #user-login-form .form-text {background:#eeece6;}
         #edit-pass-wrapper, #edit-pass-wrapper input {width:130px;}
         #user-login-form #edit-pass-wrapper input { width:130px;}     
+        #user-login-form #edit-pass-wrapper {width:130px;}     
+
         #account #edit-remember-me-wrapper label {color:#999;}
+        
         #account a {color:#000;}
           #account-profile {width:190px; padding:5px; margin-top:50px; background:#e3dfd5; margin:10px;}
           #account-profile h5 {color:#999;}
