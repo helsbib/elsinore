@@ -206,6 +206,9 @@ body.page-arrangementer .panel-middle .view-event-list ul.pager li, #pager div.n
 .campaign-type-text-only,.campaign-inner,.campaign-text {background:none;}
 .campaign-text a,.campaign-text a:link, .campaign-text a:visited,.campaign-text a:active {background:none; color:#fff;}
 
+
+.library-info .links {padding:0;}
+
 /*featured frontpage thingie*/
 
 #featured{width:670px; position:relative; background:#fff; height:240px;}
