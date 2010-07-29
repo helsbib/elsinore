@@ -60,6 +60,11 @@
             
             <div id="top" class="clearfix">
 
+              <div id="header" class="left">
+                <?php print $header ?>
+              </div>
+                
+
               <div id="search" class="left">
                 <?php print $search ?>
               </div>

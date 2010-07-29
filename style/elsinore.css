@@ -38,6 +38,8 @@ a {outline: none;}
           #account-profile div.logout a {background:none; padding:0;}
           #account-profile .username a {background:none;}
 
+      #header{position:absolute; left:250px; top:40px;height:50px;   width:500px;}
+
     #pagebody {background: transparent url('../images/bg-page-top.png') no-repeat scroll top left; padding-top:34px;    }
       #pagebody-inner{background: url('../images/bg-page.png') repeat-y top left; padding:0 0 0 54px;}
       #content-inner {margin:0;}
