@@ -118,8 +118,8 @@ body.node-type-page .panel-threecol-left-stacked-right .panel-middle {background
 /*menu*/  
 #navigation{height: 36px; padding:0 0 0 20px;}
 #navigation-inner {margin:0 30px;}
-#navigation li{height:30px; text-align:center; padding:0; margin:0; border-right: 1px solid #eee;}
-#navigation li.first{margin:0; padding:0;}
+#navigation li{height:30px; text-align:center; padding:0; margin:0; background: transparent url(../images/bg-menu.gif) no-repeat left 5px;}
+#navigation li.first{margin:0; padding:0; background:none;}
   #navigation li a{color:#333333; border:none; padding:3px 0 0 0; margin:0 17px; font-size:14px; text-transform: uppercase; }
   #navigation li.first a{margin:0 17px 0 0;}
   #navigation li a:hover{color:#999}
