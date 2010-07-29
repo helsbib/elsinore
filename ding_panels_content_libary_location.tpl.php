@@ -11,7 +11,11 @@
  * http://microformats.org/wiki/hcard for more information.
  */
 ?>
-<!--ding_panels_content_libary_location.tpl.php-->
+<!--
+Hva gider du ikke lige at blive   overskrevet?
+  ding_panels_content_libary_location.tpl.php
+  
+-->
 
 <div class="library-info">
 

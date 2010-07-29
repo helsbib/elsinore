@@ -5,8 +5,8 @@
 //dsm($fields['field_list_image_fid']);
 ?>
 
-  
-
+<div class="clearfix">
+<div class="article-content">
   <div class="subject"><?php print $fields['tid']->content; ?> </div>
 
   <h2><?php print $fields['title']->content; ?></h2>
@@ -32,26 +32,21 @@
 	?>
 
 </div>
-
-
-<div class="<?php if($fields['field_list_image_fid']){ print "content-image";} ?> clearfix">
   <p>
  	  <?php print $fields['field_teaser_value']->content; ?>  
  	  <?php print $fields['body']->content; ?>    
   </p>
-
-  <?php print $fields['field_list_image_fid']->content; ?>     	  
-   
- </div> 
  	
 	<span class="more-link"><?php print $fields['view_node']->content; ?></span>
-
-
-
 
 
 <?php if($fields['edit_node']->content){ ?>
 	<?php print $fields['edit_node']->content; ?>
 <?php } ?>
+</div>
+<div class="article-image">
+<?php print $fields['field_list_image_fid']->content; ?>     	    
+</div>
 
 
+</div>
