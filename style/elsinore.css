@@ -139,13 +139,16 @@ body.node-type-page .panel-threecol-left-stacked-right .panel-middle {background
   a, a:link, a:visited, a:active, ul.pager li a {color:#88734c;}
  
   ul.menu li.leaf > a.active, ul.menu li > a.active, li.active-trail > a {color:#88734c;  font-weight:bold;  }
- 
- 
+  #event-list li div.leaf {font-family:verdana; }
+  #event-list li div.leaf .day{text-transform: uppercase;}
+  #event-list li .calendar-leafs .leaf.today .day {background:#88734c;}
+  #event-list li div.info h4 a {color:#88734c;}
+  #event-list li div.info a {color:#88734c; font-weight:bold;}
 .panel-right h3, #event-list h3,.ding-box-pane h3,.ding-box-wide h3 {background:#88734c none; color:#fff; margin:0; padding:0px 0 2px 10px; font-weight:normal; font-size:10px; text-transform:uppercase;}
 
 
   .panel-right ul.menu li.leaf {margin:0}
-  .panel-right  ul.menu li.leaf a {background: transparent url(../images/arrow.png) no-repeat 0  5px; padding:0 0  0 10px; font-size:9px;text-transform:uppercase;  color:#000; margin-left:5px;}
+  .panel-right  ul.menu li.leaf a {background: transparent url(../images/arrow.png) no-repeat 0  5px; padding:0 0  0 10px; font-size:10px; font-weight:bold;text-transform:uppercase; color:#000; margin-left:5px;}
 
  /*boxes*/
  .panel-threecol-left-stacked .panel-middle .ding-box-pane {margin:0;}
