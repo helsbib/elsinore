@@ -8,7 +8,7 @@ a {outline: none;}
 
     #path {margin:5px 57px 0;}
 
-    #helpers{position:absolute; top:30px; left:766px; margin:0; width:230px; }
+    #helpers{position:absolute; top:43px; left:766px; margin:0; width:230px; }
       #helpers li{float:left; margin-right:20px; font-size:10px;}
       #helpers li .print{background: transparent url(../images/printer.png) no-repeat 0 center; padding:5px 0 5px 20px;}
       #helpers li .read{background: transparent url(../images/bog.png) no-repeat 0 center; padding:5px 0 5px 20px;}
@@ -20,8 +20,8 @@ a {outline: none;}
         #ting-search-form .form-button {padding:0; float:left;}
         #ting-search-form .form-submit {border: 1px solid #e3dfd5; background:#e3dfd5; height:30px;}
         #ting-search-form div.example{display:none;}
-        
-        #account {position:absolute; top:120px; left:766px; margin:0; width:210px;}
+        #ting-search-form label {padding:3px 0 0px 30px;}
+        #account {position:absolute; top:110px; left:766px; margin:0; width:210px;}
         #user-login-form{background:url("../images/logind.png") no-repeat scroll 0 0 transparent;}
         #user-login-form  #edit-name-wrapper input {width:180px; border:none;}
         #user-login-form .form-text {background:#eeece6;}
@@ -103,7 +103,7 @@ body.node-type-page .panel-threecol-left-stacked-right .panel-middle {background
 
   #pagefooter h3, 
   .pane-event_list h3, 
-  .pane-library_feature_list h3 {font-size:11px;line-height:22px;color: #555;}
+
 
   #path, 
   .subject a, 
@@ -144,7 +144,7 @@ body.node-type-page .panel-threecol-left-stacked-right .panel-middle {background
   #event-list li .calendar-leafs .leaf.today .day {background:#88734c;}
   #event-list li div.info h4 a {color:#88734c;}
   #event-list li div.info a {color:#88734c; font-weight:bold;}
-.panel-right h3, #event-list h3,.ding-box-pane h3,.ding-box-wide h3 {background:#88734c none; color:#fff; margin:0; padding:0px 0 2px 10px; font-weight:normal; font-size:10px; text-transform:uppercase;}
+.panel-right h3, #event-list h3,.ding-box-pane h3,.ding-box-wide h3,   .pane-library_feature_list h3 {background:#88734c none; color:#fff; margin:0; padding:0px 0 2px 10px; font-weight:normal; font-size:10px; text-transform:uppercase;}
 
 
   .panel-right ul.menu li.leaf {margin:0}
@@ -229,7 +229,7 @@ body.page-arrangementer .panel-middle .view-event-list ul.pager li, #pager div.n
     #featured .ui-tabs-panel .info{position:absolute; z-index:10; bottom:0; left:0; height:90px; width:460px; background: transparent url(../images/bluegbg-75.png); }
     #featured .ui-tabs-panel .info h3 {margin:10px 10px 0 20px;}
     #featured .ui-tabs-panel .info h3 a {font-size:20px; line-height:20px; color:#fff; font-weight:bold; text-transform:uppercase;}
-    #featured .ui-tabs-panel .info h3 a:hover {text-decoration:none; color:#eee;}
+    #featured .ui-tabs-panel .info h3 a:hover{text-decoration:none!important; color:#eee;}
     #featured .ui-tabs-panel .info p{margin:0px 20px; color:#fff;}
   
   #featured .ui-tabs-hide{  display:none; }
