@@ -116,13 +116,14 @@ body.node-type-page .panel-threecol-left-stacked-right .panel-middle {background
   
   
 /*menu*/  
-#navigation{height: 36px;}
+#navigation{height: 36px; padding:0 0 0 20px;}
 #navigation-inner {margin:0 30px;}
-#navigation li{height:30px; text-align:center; padding:0; margin:0  0 0 10px; }
-#navigation li.first {padding:0 5px; margin:0 10px 0 0 }
-  #navigation li.active-trail {border-bottom: 5px solid #da511f; font-weight:bold;}
-  #navigation li a{color:#333333; padding:2px 10px 0 0; border:none; border-right: 1px solid #ddd;}
+#navigation li{height:30px; text-align:center; padding:0; margin:0; border-right: 1px solid #eee;}
+#navigation li.first{margin:0; padding:0;}
+  #navigation li a{color:#333333; border:none; padding:3px 0 0 0; margin:0 17px; font-size:14px; text-transform: uppercase; }
+  #navigation li.first a{margin:0 17px 0 0;}
   #navigation li a:hover{color:#999}
+  #navigation li.active-trail a{font-weight:bold; border-bottom: 5px solid #da511f;  padding-bottom:10px;} 
   #navigation li.active a, #navigation a:hover  {color:#000;}
 /**/  
   .content-top {background:none; left:0px;  padding:0}     
