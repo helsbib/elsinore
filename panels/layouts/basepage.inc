@@ -4,7 +4,7 @@
  */
 function elsinore_basepage_panels_layouts() {
   $items['basepage'] = array(
-    'title' => t('basepage'),
+    'title' => t('basepage - 3 spalter'),
     'icon' => 'basepage.png',
     'theme' => 'basepage',
     'css' => 'basepage.css',

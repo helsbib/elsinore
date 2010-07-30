@@ -4,7 +4,7 @@
  */
 function elsinore_frontpage_panels_layouts() {
   $items['frontpage'] = array(
-    'title' => t('Frontpage'),
+    'title' => t('Frontpage 3 spalter'),
     'icon' => 'frontpage.png',
     'theme' => 'frontpage',
     'css' => 'frontpage.css',
