@@ -64,7 +64,6 @@
                 <?php print $header ?>
               </div>
                 
-
               <div id="search" class="left">
                 <?php print $search ?>
               </div>
