@@ -92,10 +92,8 @@ a {outline: none;}
 .basepage .panel-middle{width:210px; padding-right:20px; float:left;}
 .basepage .panel-right{width:210px;float:left;}
 
-.subpage .panel-left{width:670px; padding-right:20px; float:left; background:#d0d;}
-.subpage .panel-right{width:210px;float:left; background:#00d}
-
-
+.subpage .panel-left{width:670px; padding-right:20px; float:left}
+.subpage .panel-right{width:210px;float:left}
 
 
 body.node-type-page .panel-threecol-left-stacked-right .panel-middle {background:none; padding:0;} 
