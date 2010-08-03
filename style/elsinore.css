@@ -64,7 +64,7 @@ a {outline: none;}
           #account-profile .username a {background:none;}
 
       #header{position:absolute; left:285px; top:40px;height:50px;   width:500px;}
-        #header h3{display:none;}
+        #header h3{font-size:12px;}
         #header ul li{float:left;  font-size:10px; width:250px; color:#88734C;}
         #header ul li div{float:left;}
         #header ul li div.title{width:150px;}
