@@ -142,8 +142,9 @@ body.node-type-page .panel-threecol-left-stacked-right .panel-middle {background
   .panel-threecol-33-34-33-stacked .panel-middle, .panel-threecol-33-34-33-stacked .panel-left  {background:none; border:none;}
   
 /*FONTS & COLORS*/
+
   h2 {font-size:22px;  line-height:24px;text-transform: uppercase; }
-  h2 a, h2 a:link, h2 a:visited, h2 a:active, h3 a, h3 a:link, h3 a:visited, h3 a:active {color:#da511f;}
+  h1 a, h1 a:link, h1 a:visited, h1 a:active,  h2 a, h2 a:link, h2 a:visited, h2 a:active, h3 a, h3 a:link, h3 a:visited, h3 a:active {color:#da511f;}
   
   .subject{padding:0 0 6px 0; }
   .subject a, .subject a:link, .subject a:visited, .subject a:active {background-color:#006889; padding:2px; font-size:9px; line-height:13px; margin:0;}
@@ -264,3 +265,9 @@ width:95px;
   
   #featured .ui-tabs-hide{  display:none; }
 
+
+
+.pane-alma_user_reservations_details h3, .pane-alma_user_loans_details h3 { color:#da511f;}
+#account-profile ul {background:none; width:203px;}
+#account-profile ul li {background:none;}
+#account-profile ul div.content {width:160px;}
