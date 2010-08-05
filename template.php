@@ -33,3 +33,18 @@ function elsinore_menu_item_link($link) {
  }
 }
 
+function elsinore_preprocess_ding_panels_content_library_location(&$variables) {
+  $node = $variables['node'];
+
+  // Add a static Google map to the location information.
+  if (function_exists('location_has_coordinates') && location_has_coordinates($node->location)) {
+    $map_url = url('http://maps.google.com/maps/api/staticmap', array('query' => array(
+      'zoom' => 14,
+      'size' => '210x210',
+      'markers' => $node->location['latitude'] . ',' . $node->location['longitude'],
+      'sensor' => 'false',
+    )));
+    $variables['library_map'] = theme('image', $map_url, '', '', NULL, FALSE);
+  }
+
+}

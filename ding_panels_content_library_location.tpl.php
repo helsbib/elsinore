@@ -10,7 +10,7 @@
  * The address, etc. are marked up to conform to the hCard microformat.
  * http://microformats.org/wiki/hcard for more information.
  */
- dsm('elsinore: ding_panels_content_libary_location')
+ 
 ?>
 <!--
 Hva gider du ikke lige at blive   overskrevet?
