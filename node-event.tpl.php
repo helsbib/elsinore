@@ -1,8 +1,13 @@
 <?php
-/*
-ad a class="" if we have anything in the $classes var
-this is so we can have a cleaner output - no reason to have an empty <div class="" id=""> 
-*/
+// $Id$
+
+/**
+ * @file
+ * Template for rendering event nodes.
+ */
+
+# add a class="" if we have anything in the $classes var
+# this is so we can have a cleaner output - no reason to have an empty <div class="" id="">
 if($classes){
    $classes = ' class="' . $classes . ' clearfix"';
 }
@@ -12,7 +17,6 @@ if($id_node){
 }
 
 ?>
-<?php dsm('node-event.tpl'); ?>
 <!-- node-event.tpl-->
 <?php if ($page == 0){ ?>
 <div<?php print $id_node . $classes; ?>>
