@@ -233,7 +233,7 @@ body.page-arrangementer .panel-middle .view-event-list ul.pager li, #pager div.n
 
 .library-info .links {padding:0;}
 
-.ding-box-pane .pane-library_feature_list ul.item-list li { 
+.pane-library_feature_list ul.item-list li { 
 background:url("../images/ok.png") no-repeat scroll left 3px transparent;
 float:left;
 margin:0;
