@@ -276,5 +276,6 @@ width:95px;
 .ting-item .alma-status.waiting, #content .alma-cart-buttons a.disabled {color:#fff;font-size:10px;}
 .ting-item ul.buttons li a, .ting-overview ul.buttons li a {background:none; background-color:#DA511F;}
 .ting-item ul.buttons li a:hover {background:none; background-color:#DA511F; color:#FFCC66;}
-
-
+.ting-item ul.buttons li {background:none; margin:0 5px;}
+ul.alma-cart-buttons li{padding:0 5px;}
+.ting-item ul.buttons li:hover {background:none; background-color:#FFCC66; color:#DA511F;}
