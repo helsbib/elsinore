@@ -81,7 +81,10 @@ function elsinore_preprocess_node(&$variables) {
   }
 }
 
-function elsinore_event_information($start, $end, $price) {
+/**
+ * Implementation of theme_event_information().
+ */
+function elsinore_event_information($start, $end, $price = 0) {
   $output = array();
 
   // Maybe swap end and start (problem with views event_list)
