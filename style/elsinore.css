@@ -271,3 +271,10 @@ width:95px;
 #account-profile ul {background:none; width:203px;}
 #account-profile ul li {background:none;}
 #account-profile ul div.content {width:160px;}
+
+
+.ting-item .alma-status.waiting, #content .alma-cart-buttons a.disabled {color:#fff;font-size:10px;}
+.ting-item ul.buttons li a, .ting-overview ul.buttons li a {background:none; background-color:#DA511F;}
+.ting-item ul.buttons li a:hover {background:none; background-color:#DA511F; color:#FFCC66;}
+
+
