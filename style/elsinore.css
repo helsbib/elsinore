@@ -233,6 +233,15 @@ body.page-arrangementer .panel-middle .view-event-list ul.pager li, #pager div.n
 
 .library-info .links {padding:0;}
 
+.ding-box-pane .pane-library_feature_list ul.item-list li { 
+background:url("../images/ok.png") no-repeat scroll left 3px transparent;
+float:left;
+margin:0;
+padding:0 0 0 15px;
+width:95px;
+}
+
+
 /*featured frontpage thingie*/
 
 #featured{width:670px; position:relative; background:#fff; height:240px;}
