@@ -216,6 +216,7 @@ body.page-biblioteker .panel-left .view ul li {clear:both; padding:5px 0 5px 0;}
 
 
 .feed-icon{float:left;  font-size:10px}
+.view .feed-icon{margin:0;}
 .feed-icon a.feed-icon{display:block; width:16px; height:16px; background:#f0f; background: transparent url(../images/rss.png) no-repeat;}
 .feed-icon a img{display:none;}
 .feed-icon span {display:none;}
