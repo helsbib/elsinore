@@ -32,7 +32,7 @@ if($id_node){
   	<div class="meta">
       <?php print $field_datetime_rendered ?>
       <?php print $field_library_ref_rendered ?>          
-      <?php print $field_entry_price_rendered ?>
+      <?php print $event_info['price']; ?>
   	</div>
 	
 		<?php 
@@ -45,15 +45,14 @@ if($id_node){
 			?>
 
 
-	<?php
-	// adding warning for event that has already occurred
-	print $alertbox;
- 	?>
-    
+  <?php // adding warning for event that has already occurred
+  if ($event_info['past_event']): ?>
+    <div class="alert"><?php print t('NB! This event occurred in the past.'); ?></div>
+  <?php endif; ?>
   </div>
 
 </div>
-<?php }else{ 
+<?php } else {
 //Content
 ?>
 
@@ -63,19 +62,20 @@ if($id_node){
 	  <h2><?php print $title;?></h2>
 	<?php } ?>
 
-	<?php
-		// adding warning for event that has already occurred
-		print $alertbox;
-	?>
+  <?php // adding warning for event that has already occurred
+  if ($event_info['past_event']): ?>
+    <div class="alert"><?php print t('NB! This event occurred in the past.'); ?></div>
+  <?php endif; ?>
+
 
 	<div class="content">
 		<div class="event-info">
-      <span class="event-date"><?php print $event_date; ?></span>
-      <?php if($event_time){	?>
-        <span class="time"><?php print $event_time; ?></span>
-      <?php } ?>
-      <span class="event-lenght"><?php print $event_lenght;  ?> Timer</span>
-			<span class="event-price"><?php print $event_price; ?>  </span>
+      <span class="event-date"><?php print $event_info['date']; ?></span>
+      <?php if ($event_info['time']): ?>
+        <span class="time"><?php print $event_info['time']; ?></span>
+      <?php endif; ?>
+      <span class="event-length"><?php print $event_info['duration_formatted']; ?></span>
+			<span class="event-price"><?php print $event_info['price']; ?>  </span>
 
 		</div>
 		<?php print $content ?>
@@ -98,7 +98,8 @@ if($id_node){
 	</div>		
 		
 	<?php if ($links){ ?>
-    <?php  print $links; ?>
+    <?php print $links; ?>
 	<?php } ?>
 </div>
 <?php } ?>
+
