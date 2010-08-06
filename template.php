@@ -52,7 +52,7 @@ function elsinore_preprocess_ding_panels_content_library_location(&$variables) {
 
 function  elsinore_preprocess_ding_panels_content_library_title(&$variables) {
 //  dsm('elsinore_preprocess_ding_panels_content_library_title');
-  print_r($variables);  
+  print_r($variables['library_links']);  
 
 /*
   unset($variables['library_links']['pc_booking']);
