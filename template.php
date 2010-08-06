@@ -48,3 +48,16 @@ function elsinore_preprocess_ding_panels_content_library_location(&$variables) {
   }
 
 }
+
+
+function  elsinore_preprocess_ding_panels_content_library_title(&$variables) {
+  dsm('elsinore_preprocess_ding_panels_content_library_title');
+  dsm($variables);  
+
+/*
+  unset($variables['library_links']['pc_booking']);
+  [06/08/10 14.53.35] Mikkel Høgh: $variables['library_links']['morten'] = 'hest;
+*/
+
+  $variables['library_navigation'] = theme('item_list', $variables['library_links']);  
+}
