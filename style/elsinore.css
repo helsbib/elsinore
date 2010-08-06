@@ -280,3 +280,5 @@ width:95px;
 .ting-item ul.buttons li {background:none; margin:0 5px;}
 ul.alma-cart-buttons li{padding:0 5px;}
 .ting-item ul.buttons li:hover {background:none; background-color:#FFCC66; color:#DA511F; border:none; padding:0;}
+
+.panel-region-separator{clear:both}
