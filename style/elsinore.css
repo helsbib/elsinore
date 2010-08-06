@@ -176,7 +176,8 @@ body.node-type-page .panel-threecol-left-stacked-right .panel-middle {background
 .library-info .library-map {background:none; padding:0;}
 .library-info .vcard {padding:0;}
 .library-info .library-map-inner {background:none repeat scroll 0 0 #EEEEEE;height:210px;width:210px; margin:0 0 20px 0;}
-.pane-library_title ul.item-list{display:none;}
+.pane-library_title ul.item-list{}
+.pane-library_title ul.item-list li {float:left; padding:0 10px 10px 0; border:none;}
 
 body.page-arrangementer .panel-middle, body.ding-arrangementer .panel-middle, .tab-navigation-main {background:none;}
 .view-event-list ul li{padding:0 0 10px 0;}
