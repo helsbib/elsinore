@@ -23,12 +23,13 @@
   </div>
 
   <div class="info">
-    <h4><?php print $fields['title']->content; ?></h4>
-    <span><?php print $fields['field_library_ref_nid']->content; ?></span>
+    <h4><?php print $fields['field_library_ref_nid']->content; ?></h4>
+    <span><?php print $fields['title']->content; ?></span>
     <?php if (format_date($date, 'custom', 'Hi') != '0000') { ?>
     <span class="time">
-      time->
-			<?php print format_date($date, 'custom', 'H:i'); ?> -      
+
+			<?php  print format_date($date, 'custom', 'H:i'); ?> 
+			<?php // print $fields['field_datetime_value']->content;  ?>
     </span>
     <?php } ?>
     <?php print $price; ?>
