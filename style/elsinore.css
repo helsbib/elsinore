@@ -177,7 +177,7 @@ body.node-type-page .panel-threecol-left-stacked-right .panel-middle {background
 .library-info .vcard {padding:0;}
 .library-info .library-map-inner {background:none repeat scroll 0 0 #EEEEEE;height:210px;width:210px; margin:0 0 20px 0;}
 .pane-library_title ul.item-list{}
-.pane-library_title ul.item-list li {float:left; padding:0 10px 10px 0; border:none;}
+.pane-library_title ul.item-list li {float:left; padding:0 10px 10px 0!important; border:none;}
 
 body.page-arrangementer .panel-middle, body.ding-arrangementer .panel-middle, .tab-navigation-main {background:none;}
 .view-event-list ul li{padding:0 0 10px 0;}
@@ -213,9 +213,11 @@ body.page-biblioteker .panel-left .view ul li {clear:both; padding:5px 0 5px 0;}
   #event-list li div.leaf {font-family:verdana; }
   #event-list li div.leaf .day{text-transform: uppercase;}
   #event-list li .calendar-leafs .leaf.today .day {background:#d54b03;}
+  #event-list li div.info h4{text-transform: uppercase;}
   #event-list li div.info h4 a {color:#000;font-weight:bold;}
-  #event-list li div.info a {color:#88734c; font-weight:bold;}
-
+  #event-list li div.info a {color:#88734c;}
+  #event-list li div.info span {font-size:11px; display:block}
+  #event-list li div.info span.time{font-size:11px; display:block}
 
 .feed-icon{float:left;  font-size:10px}
 .view .feed-icon{margin:0;}

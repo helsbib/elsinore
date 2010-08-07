@@ -1,7 +1,5 @@
-<?php dsm('fdf'); ?>
-<!-- pane 4 !! -->
+<!-- finally -->
 <?php 
-//dsm($fields['field_datetime_value']);
   // Convert the date value to timestamp
   $date = strtotime($fields['field_datetime_value']->raw . 'Z');
   if (format_date($_SERVER['REQUEST_TIME'], 'custom', 'd-m-Y') == format_date($date, 'custom', 'd-m-Y') ) {
@@ -16,9 +14,6 @@
   	$price = t('Free');
 	}  
 ?>
-
-
-
 <div class="calendar-leafs">
 
   <div class="leaf <?php print $is_today ?>">
@@ -29,15 +24,11 @@
 
   <div class="info">
     <h4><?php print $fields['title']->content; ?></h4>
-	 <?php $fields['field_datetime_value']; ?>
-			  
     <span><?php print $fields['field_library_ref_nid']->content; ?></span>
-
     <?php if (format_date($date, 'custom', 'Hi') != '0000') { ?>
     <span class="time">
-      <?php print $datetime; ?>
-			<?php print format_date($date, 'custom', 'H:i'); ?> 
-			<?php // $fields['field_datetime_value']->content; ?>
+      time->
+			<?php print format_date($date, 'custom', 'H:i'); ?> -      
     </span>
     <?php } ?>
     <?php print $price; ?>
