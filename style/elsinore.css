@@ -154,7 +154,7 @@ body.node-type-page .panel-threecol-left-stacked-right .panel-middle {background
  
   ul.menu li.leaf > a.active, ul.menu li > a.active, li.active-trail > a {color:#88734c;  font-weight:bold;  }
 
-.panel-right h3, #event-list h3,.ding-box-pane h3,.ding-box-wide h3, .pane-library_feature_list h3, .pane-library_location h3 {background:#88734c none; color:#fff; margin:0; padding:0px 0 2px 10px; font-weight:normal; font-size:10px; text-transform:uppercase;}
+.panel-right h3, #event-list h3,.ding-box-pane h3,.ding-box-wide h3, .pane-library_feature_list h3, .pane-library_location h3 {background:#88734c none; color:#fff; margin:0; padding:0px 0 2px 10px; font-weight:normal; font-size:10px; text-transform:uppercase; width:210px;}
 
 
   .panel-right ul.menu li.leaf {margin:0}
@@ -259,7 +259,7 @@ width:95px;
 #featured{width:670px; position:relative; background:#fff; height:240px;}
 #featured ul.ui-tabs-nav{position:absolute; z-index:20; top:0; left:448px; list-style:none;  padding:0; margin:0;  width:220px;}
   #featured ul.ui-tabs-nav li{color:#666; border:none;}
-    #featured li.ui-tabs-nav-item a:hover,     #featured ul.ui-tabs-nav li.ui-tabs-selected a:hover{text-decoration:none!important;}
+    #featured li.ui-tabs-nav-item a:hover,  #featured ul.ui-tabs-nav li.ui-tabs-selected a:hover{text-decoration:none!important; color:#eee;}
     #featured li.ui-tabs-nav-item a{color:#fff;display:block; background: url(../images/tab.png) no-repeat; width: 202px; height: 43px; overflow:hidden; font-weight:bold; padding:5px 0 0 20px; line-height:13px;}
 
     #featured li.ui-tabs-selected{}
