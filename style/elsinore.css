@@ -158,7 +158,8 @@ body.node-type-page .panel-threecol-left-stacked-right .panel-middle {background
 .ding-box-pane h3,.ding-box-wide h3, 
 .pane-library_feature_list h3, 
 .pane-library_location h3 {background:#88734c none; color:#fff; margin:0; padding:0px 0 2px 10px; font-weight:normal; font-size:10px; text-transform:uppercase; }
-.panel-right h3{width:200px;}
+
+.panel-right h3{width:200px;padding:0 0 2px 0;}
 
   .panel-right ul.menu li.leaf {margin:0}
   .panel-right  ul.menu li.leaf a {background: transparent url(../images/arrow.png) no-repeat 0  5px; padding:0 0  0 10px; font-size:10px; font-weight:bold;text-transform:uppercase; color:#000; margin-left:5px;}
@@ -234,8 +235,8 @@ body.page-biblioteker .panel-left .view ul li {clear:both; padding:5px 0 5px 0;}
 
 /*pagers*/
 #pager, ul.pager {padding:0; margin:0;}
-body.page-arrangementer .panel-middle .view-event-list ul.pager li, #pager div.navwide, #pager div.nav, ul.pager li, ul.pager li.pager-next, ul.pager li.pager-item, ul.pager li.pager-last, ul.pager li.pager-previous, ul.pager li.pager-first, .panel-left ul.pager li.pager-first, #ting-result-pager ul li.current, .panel-left ul.pager li.pager-current {background:none; padding:0; margin:0 3px; width:25px; height:25px; border: 1px solid #bbb; background:#f2f2f2; font-size:11px; line-height:26px;}
-ul.pager li.pager-next, ul.pager li.pager-last, ul.pager li.pager-first, ul.pager li.pager-previous{width:50px!important;}
+body.page-arrangementer .panel-middle .view-event-list ul.pager li, #pager div.navwide, #pager div.nav,  #pager div.nav a, ul.pager li, ul.pager li.pager-next, ul.pager li.pager-item, ul.pager li.pager-last, ul.pager li.pager-previous, ul.pager li.pager-first, .panel-left ul.pager li.pager-first, #ting-result-pager ul li.current, .panel-left ul.pager li.pager-current {background:none; padding:0; margin:0 3px; width:25px; height:25px; border: 1px solid #bbb; background:#f2f2f2; font-size:11px; line-height:26px;}
+ul.pager li.pager-next, ul.pager li.pager-last, ul.pager li.pager-first, ul.pager li.pager-previous, #pager .prev, #pager .first, #pager .next{width:50px!important;}
 ul.pager li.pager-current{background-color:#ff6600!important; border: 1px solid #ff6600!important; color:#fff!important; font-weight:bold;}
 #pager, ul.pager {background:none}
 ul.pager a, ul.pager a:link,ul.pager  a:visited,ul.pager  a:active,ul.pager ul.pager li a {color:#0e6984; margin:0; padding:0; }
