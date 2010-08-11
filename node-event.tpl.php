@@ -77,8 +77,8 @@ if($id_node){
 		<?php print $content ?>
 
     <?php 
-    $lenght_hours =   (strtotime($field_datetime[0][value2]) - strtotime($field_datetime[0][value]))/60/60;
-    print t('Lenght') . " ". $lenght_hours . " ".t('Hours');
+ //   $lenght_hours =   (strtotime($field_datetime[0][value2]) - strtotime($field_datetime[0][value]))/60/60;
+ //   print t('Lenght') . " ". $lenght_hours . " ".t('Hours');
      ?>
 
 
