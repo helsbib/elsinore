@@ -291,10 +291,52 @@ width:95px;
 
 
 .ting-item .alma-status.waiting, #content .alma-cart-buttons a.disabled {color:#fff;font-size:10px;}
-.ting-item ul.buttons li a, .ting-overview ul.buttons li a {background:none; background-color:#DA511F;}
-.ting-item ul.buttons li a:hover {background:none; background-color:#DA511F; color:#FFCC66;}
+
+.ting-item ul.buttons li,
+.ting-overview ul.buttons li {
+  border: 0px none  ;
+}
+
+.ting-item ul.buttons li a,
+.ting-overview ul.buttons li a {
+  background: #d74c13 none;
+  padding: 10px;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.ting-item ul.buttons li a:hover {
+  background:none;
+  background-color: #d74c13;
+  color: #fc6;
+}
+
+#content .alma-cart-buttons a.add-to-cart,
+.ting-item ul.buttons li a.add-to-cart,
+.ting-overview ul.buttons li a.add-to-cart {
+  background-color: #9fb310;
+}
+
+#content .alma-cart-buttons a.add-to-cart:hover,
+.ting-item ul.buttons li a.add-to-cart:hover,
+.ting-overview ul.buttons li a.add-to-cart:hover {
+  color: #080;
+}
+
+#content .alma-cart-buttons a.disabled,
+.ting-item ul.buttons li a.disabled,
+.ting-overview ul.buttons li a.disabled,
+#content .alma-cart-buttons a.disabled:hover,
+.ting-item ul.buttons li a.disabled:hover,
+.ting-overview ul.buttons li a.disabled:hover {
+  color: #999;
+  background-color: #ccc;
+  font-size: 13px;
+}
+
 .ting-item ul.buttons li {background:none; margin:0 5px;}
-ul.alma-cart-buttons li{padding:0 5px;}
-.ting-item ul.buttons li:hover {background:none; background-color:#FFCC66; color:#DA511F; border:none; padding:0;}
+ul.alma-cart-buttons li {padding:0 5px;}
+.ting-item ul.buttons li:hover {background: transparent none;}
 
 .panel-region-separator{clear:both}
+
