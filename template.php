@@ -1,6 +1,9 @@
 <?php 
+// $Id$
 
-/*forms*/
+/**
+ * Override of theme_ting_search_form().
+ */
 function elsinore_ting_search_form($form){
 	$form['submit']['#type'] 	= "submit" ;
 	$form['submit']['#src'] 	= drupal_get_path('theme','elsinore')."/images/searchbutton.png";
@@ -9,6 +12,9 @@ function elsinore_ting_search_form($form){
 	return drupal_render($form);	
 }
 
+/**
+ * Override of theme_user_login_block().
+ */
 function elsinore_user_login_block($form){
 	$form['submit']['#type'] 	= "image_button" ;
 	$form['submit']['#src'] 	= drupal_get_path('theme','elsinore')."/images/accountlogin.png";
@@ -23,6 +29,9 @@ function elsinore_user_login_block($form){
 	return 	$name . $pass .$submit . $remember . drupal_render($form);
 }
 
+/**
+ * Override of theme_menu_item_link().
+ */
 function elsinore_menu_item_link($link) {
 
   if ($link['href'] == 'http://nolink') {
@@ -33,6 +42,22 @@ function elsinore_menu_item_link($link) {
  }
 }
 
+/**
+ * Preprocess node template variables.
+ */
+function elsinore_preprocess_node(&$variables) {
+  if ($variables['type'] == 'page' && isset($variables['field_page_type'][0]['safe'])) {
+    $page_type = $variables['field_page_type'][0]['safe'];
+
+    if (!empty($page_type)) {
+      $variables['classes'] .= ' page-type-' . $page_type;
+    }
+  }
+}
+
+/**
+ * Preprocess library location pane template variables.
+ */
 function elsinore_preprocess_ding_panels_content_library_location(&$variables) {
   $node = $variables['node'];
 
@@ -46,15 +71,12 @@ function elsinore_preprocess_ding_panels_content_library_location(&$variables) {
     )));
     $variables['library_map'] = theme('image', $map_url, '', '', NULL, FALSE);
   }
-
 }
 
-
+/**
+ * Preprocess library title pane template variables.
+ */
 function  elsinore_preprocess_ding_panels_content_library_title(&$variables) {
-/*
-  unset($variables['library_links']['pc_booking']);
-  $variables['library_links']['morten'] = 'hest;
-*/
-
   $variables['library_navigation'] = theme('item_list', $variables['library_links']);  
 }
+
