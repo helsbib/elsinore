@@ -28,6 +28,8 @@ features[] = secondary_links
 ;--------------------- styles ------------------------------
 stylesheets[all][]  = style/elsinore.css
 scripts[] = script/elsinore.js
+scripts[] = script/kpi/include1.js
+scripts[] = script/kpi/dcs_tag.js
 
 ;---------------------panels plugins ----------------------------
 plugins[panels][layouts] = panels/layouts
