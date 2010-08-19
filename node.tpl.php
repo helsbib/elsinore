@@ -3,21 +3,12 @@
 
 /**
  * @file
- * Template for rendering nodes.
+ * Template to render nodes.
  */
 
-# add a class="" if we have anything in the $classes var
-# this is so we can have a cleaner output - no reason to have an empty <div class="" id="">
-if($classes){
-   $classes = ' class="' . $classes . ' clearfix"';
-}
+if ($page == 0) { ?>
 
-if($id_node){
-  $id_node = ' id="' . $id_node . '"';  
-}
-?>
-<!-- node.tpl!-->
-<?php if ($page == 0){ ?>
+<div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix">
 <div <?php print $id_node . $classes; ?>>
 
   <div class="picture"><?php print $list_image; ?></div>
@@ -69,8 +60,7 @@ if($id_node){
 <?php }else{ 
 //Content
 ?>
-
-<div<?php print $id_node . $classes; ?>>
+<div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix">
   <div class="subject">
     <?php print return_terms_from_vocabulary($node, "1"); ?> 
   </div>
@@ -112,4 +102,4 @@ if($id_node){
 
 </div>
 <?php } ?>
-<!-- /node.tpl-->
+

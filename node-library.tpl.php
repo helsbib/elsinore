@@ -1,20 +1,14 @@
 <?php
-/*
-ad a class="" if we have anything in the $classes var
-this is so we can have a cleaner output - no reason to have an empty <div class="" id=""> 
-*/
-if($classes){
-   $classes = ' class="' . $classes . ' clearfix"';
-}
+// $Id$
 
-if($id_node){
-  $id_node = ' id="' . $id_node . '"';  
-}
-?>
+/**
+ * @file
+ * Template to render library nodes.
+ */
 
-<?php if ($page == 0){ ?>
-<!--node-lib !!-->
-<div<?php print $id_node . $classes; ?>>
+if ($page == 0) { ?>
+
+<div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix">
   <div class="picture">
       <?php print $field_list_image_rendered; ?>
       <?php // print $list_image; ?>
@@ -68,7 +62,7 @@ if($id_node){
 <?php }else{ 
 //Content
 ?>
-<div<?php print $id_node . $classes; ?>>
+<div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix">
 
 	<h1><?php print $title;?></h1>
 		
@@ -105,3 +99,4 @@ if($id_node){
 	<?php } ?>
 </div>
 <?php } ?>
+
