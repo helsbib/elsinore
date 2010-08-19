@@ -244,7 +244,16 @@ ul.pager li.pager-current{background-color:#ff6600!important; border: 1px solid 
 #pager, ul.pager {background:none}
 ul.pager a, ul.pager a:link,ul.pager  a:visited,ul.pager  a:active,ul.pager ul.pager li a {color:#0e6984; margin:0; padding:0; }
 #pager a {margin:0 0 0;}
-#pager div.navwide, #pager div.nav a{width:50px; border: 1px solid #bbb; background:none; background-color:#f2f2f2;  margin:0;}
+#pager div.navwide, #pager div.nav {width:50px; border: 1px solid #bbb; background:none; background-color:#f2f2f2;  margin:0;}
+
+/** Fix for the search page, broken by the mess above. **/
+#ting-search-results #pager .nav,
+#ting-search-results #pager .navwide {
+  margin-right: 5px;
+  font-size: 12px;
+  height: auto;
+  padding: 5px 10px;
+}
 
 
 /*campaigns*/
