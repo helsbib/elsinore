@@ -89,6 +89,9 @@ function elsinore_preprocess_ding_panels_content_library_location(&$variables) {
  * Preprocess library title pane template variables.
  */
 function  elsinore_preprocess_ding_panels_content_library_title(&$variables) {
-  $variables['library_navigation'] = theme('item_list', $variables['library_links']);  
+  if (isset($variables['library_links'])) {
+    $variables['library_links']['events'] = l('Det sker', $variables['base_url'] . '/arrangementer');
+    $variables['library_navigation'] = theme('item_list', $variables['library_links']);  
+  }
 }
 
