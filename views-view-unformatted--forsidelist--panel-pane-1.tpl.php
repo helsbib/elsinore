@@ -1,14 +1,13 @@
-<?php ///dsm($view->result); ?>
+<?php
+// $Id$
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.5.3/jquery-ui.min.js"></script>
+/**
+ * Render funky slideshow thingie for frontpage.
+ */
 
-<script type="text/javascript">
-	$(document).ready(function(){
-//		$("#featured > ul").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 5000, true);
-		$("#featured > ul").tabs({fx:{opacity: "toggle"}});
-	});
-</script>
-
+// We need jQuery UI tabs for this.
+jquery_ui_add('ui.tabs');
+?>
  <div id="featured">
   <ul class="ui-tabs-nav">
     <?php
