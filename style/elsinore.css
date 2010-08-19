@@ -372,3 +372,12 @@ ul.alma-cart-buttons li {padding:0 5px;}
   margin-top: 10px;
 }
 
+/** Header office hours **/
+#block-views-library-list-block-1 .views-admin-links { display: none; }
+#block-views-library-list-block-1 .field-opening-hours-scope .hours {
+  clear: right;
+  display: block;
+  float: right;
+  margin-right: 20px;
+}
+
