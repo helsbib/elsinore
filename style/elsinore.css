@@ -222,8 +222,8 @@ body.page-biblioteker .panel-left .view ul li {clear:both; padding:5px 0 5px 0;}
 #event-list li div.info h4{text-transform: uppercase;}
 #event-list li div.info h4 a {color:#000;font-weight:bold;}
 #event-list li div.info a {color:#88734c;}
-#event-list li div.info span {font-size:12px; display:block}
-#event-list li div.info span.time{font-size:12px; display:block}
+#event-list li div.info span {font-size:12px;}
+#event-list li div.info span.time{font-size:12px;}
 
   #event-list .more-link {padding:0 5px 0 10px; float:right; background: transparent url(../images/arrow.png) no-repeat left center;}
 
