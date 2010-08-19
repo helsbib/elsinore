@@ -340,3 +340,8 @@ ul.alma-cart-buttons li {padding:0 5px;}
 
 .panel-region-separator{clear:both}
 
+/** Non-navigation pages are narrower than the full width. **/
+.pane-node_content .page-type-standard {
+  width: 440px;
+}
+
