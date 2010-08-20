@@ -6,8 +6,8 @@
   </div>
 
   <div class="panel-middle">
-    <?php print $content['middle']; ?>&nbsp;
-    <div></div>
+    <?php print $content['middle']; ?>
+    <div class="prevent-collapse"></div>
   </div>
 
   <div class="panel-right">
