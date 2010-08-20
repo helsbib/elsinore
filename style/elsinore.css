@@ -405,3 +405,6 @@ ul.alma-cart-buttons li {padding:0 5px;}
 #ting-search-result .ting-search-collection-types .unavailable { background-color: #d74c13; }
 #ting-search-result .types li.available, .types li.available { background-color: #9fb310; }
 
+/** Undo fixed width from Dynamo **/
+.pane-library_feature_list ul.item-list li { width: auto; }
+
