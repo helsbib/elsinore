@@ -130,13 +130,11 @@
 
         <div id="pagefooter">
           <div id="pagefooter-inner" class="clearfix">
-
-              <?php print $footer; ?>
-      
+            <?php print $footer; ?>
           </div>
         
           <div class="footerlink">
-            <a href="/om-hjemmesiden">Om hjemmesiden </a>
+            <a href="/om-hjemmesiden">Om hjemmesiden</a>
           </div>
         </div>
 

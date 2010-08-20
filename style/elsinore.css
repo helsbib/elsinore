@@ -126,10 +126,31 @@ body.node-type-page .panel-threecol-left-stacked-right .panel-middle {background
   
   #pagefooter .footerlink{padding:0 0 0 54px;}
   
+#pagefooter-inner ul.menu li.expanded {
+  margin-right: 10px;
+  padding: 0;
+  width: 124px;
+}
 
-  
-  
-  
+#pagefooter-inner ul.menu li.expanded.last {
+  margin-right:0px;
+}
+
+#pagefooter-inner ul.menu li.expanded > a {
+  color: #DA511F;
+  display: block;
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#pagefooter-inner ul.menu ul.menu li a {
+  color: black;
+  font-weight: normal;
+  font-size: 11px;
+}
+
 /*menu*/  
 #navigation{height: 36px; padding:0 0 0 20px;}
 #navigation-inner {margin:0 30px;}
