@@ -402,3 +402,6 @@ ul.alma-cart-buttons li {padding:0 5px;}
   margin-right: 20px;
 }
 
+#ting-search-result .ting-search-collection-types .unavailable { background-color: #d74c13; }
+#ting-search-result .types li.available, .types li.available { background-color: #9fb310; }
+
