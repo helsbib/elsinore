@@ -1,12 +1,13 @@
 <!--basepage.tpl.php-->
 
-<div class="basepage clearfix" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>	
+<div class="basepage clearfix" <?php if (!empty($css_id)) { print 'id="$css_id"'; } ?>>	
   <div class="panel-left">
     <?php print $content['left']; ?>  
   </div>
 
   <div class="panel-middle">
-    <?php print $content['middle']; ?>  
+    <?php print $content['middle']; ?>&nbsp;
+    <div></div>
   </div>
 
   <div class="panel-right">
