@@ -112,8 +112,8 @@ body.node-type-page .panel-threecol-left-stacked-right .panel-middle {background
 
 .panel-threecol-left-stacked .panel-left  {background:none;}
 
-
-
+.page-user h2.panel-title { color: #DA511F;}
+  .page-user .node-profile .field-image{width:120px; height:120px; margin:0 0 20px 20px; float:right;}
       
  #pagefooter{background: url('../images/bg-page-footer.png') no-repeat scroll top left; padding:40px 0 20px 0; height:240px;}     
   #pagefooter-inner {background:none; padding:0 0 0 54px; height:210px;}
