@@ -15,7 +15,7 @@ a {outline: none;}
   #pagefooter h3, 
   .pane-event_list h3, 
   #path, 
-  .subject a, 
+  .subject a {color:#006a87;}, 
   .more-link a, 
   .pane-event_list li div, 
   .pane-event_list h4 a, 
