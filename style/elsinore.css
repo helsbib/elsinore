@@ -16,7 +16,7 @@ a {outline: none;}
   .pane-event_list h3, 
   #path, 
   .subject a {color:#006a87;}, 
-  .more-link a, 
+  .more-link a {color:#004256; text-decoration: underline;}, 
   .pane-event_list li div, 
   .pane-event_list h4 a, 
   .pane-library_feature_list ul li, 
