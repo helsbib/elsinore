@@ -172,7 +172,7 @@ body.node-type-page .panel-threecol-left-stacked-right .panel-middle {background
   
   .subject{padding:0 0 6px 0; }
   .subject a, .subject a:link, .subject a:visited, .subject a:active {background-color:#006889; padding:2px; font-size:9px; line-height:13px; margin:0;}
-  .meta a, .meta a:link, .meta a:visited, .meta a:active {color:#004256; text-decoration: underline;}
+  .meta a, .meta a:link, .meta a:visited, .meta a:active {color:#004256;}
   .meta ul li, .view .meta ul li {border:none!important;}
   a, a:link, a:visited, a:active, ul.pager li a {color:#004256; text-decoration: underline;}
  
