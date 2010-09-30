@@ -134,7 +134,7 @@
           </div>
         
           <div class="footerlink">
-            <a href="/node/191">Om hjemmesiden.</a>
+            <a href="/node/191">Om hjemmesiden</a>
           </div>
         </div>
 
