@@ -388,6 +388,10 @@ ul.alma-cart-buttons li {padding:0 5px;}
   margin-bottom: 10px;
 }
 
+
+a, a:link, a:visited, a:active, ul.pager li a {color:#004256; text-decoration: underline;}
+
+
 /** Library frontpage calendar **/
 .pane-event_list-panel_pane_2 {
   margin-top: 10px;
