@@ -96,6 +96,10 @@ a {outline: none;}
   margin-bottom: 10px;
 }
 
+#ting-facet-browser li li {
+color: #004256;
+}
+
 
 .frontpage .panel-content .left{width:670px; padding-right:20px; float:left;}
   .frontpage .panel-content .left .panel-top{width:670px; padding-right:20px; padding-bottom:20px; height:auto;}
