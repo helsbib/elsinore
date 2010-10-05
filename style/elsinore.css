@@ -46,7 +46,7 @@ a {outline: none;}
         #ting-search-form .form-submit {border: 1px solid #e3dfd5; background:#e3dfd5; height:30px;}
         #ting-search-form div.example{display:none;}
         #ting-search-form label {padding:3px 0 0px 30px;}
-        #account {position:absolute; top:110px; left:766px; margin:0; width:210px;}
+        #account {position:absolute; top:120px; left:756px; margin:0; width:210px;}
         #user-login-form{background:url("../images/logind.png") no-repeat scroll 0 0 transparent;}
         #user-login-form  #edit-name-wrapper input {width:180px; border:none;}
         #user-login-form .form-text {background:#eeece6;}
@@ -56,13 +56,19 @@ a {outline: none;}
 
         #account #edit-remember-me-wrapper label {color:#999;}
         
-        #account a {color:#000;}
-          #account-profile {width:190px; padding:5px; margin-top:50px; background:#e3dfd5; margin:10px;}
+        #account a {color:#000;background: none;}
+          #account-profile {width:196px; padding:5px; margin-top:50px; background:#fff; margin:10px;}
           #account-profile h5 {color:#999;}
           #account-profile div.logout {margin:0}
           #account-profile div.logout a {background:none; padding:0;}
           #account-profile .username a {background:none;}
-          #account-profile .cart a { color: #fff; }
+          #account-profile .cart a { color: #da511f; }
+          #account-profile .cart{width:60px; padding:0 12px 0 0; height:40px;float:left; background:transparent url(../images/bg-account-cart.png) no-repeat 0px 3px; text-align:center;}
+          #account-profile .cart div.count {
+            color: #da511f;
+            font-size: 28px;
+            font-weight: bold;
+          }
 
       #header{position:absolute; left:285px; top:40px;height:50px;   width:500px;}
         #header h3{font-size:10px; text-decoration:uppercase; font-width:bold;}
@@ -321,13 +327,21 @@ width:95px;
 
 
 .pane-alma_user_reservations_details h3, .pane-alma_user_loans_details h3 { color:#da511f;}
+#account-profile .user { font-size: 12px; text-transform: uppercase;}
+#account-profile .user > .logout { float:right;margin-right: 10px;position: absolute;right: 0px;top: 10px; }
+  #account-profile .user > .logout a { background: url(../images/pointer-logout.png) 0 4px no-repeat; padding-left: 10px; }
+#account-profile .user h5 { padding-bottom: 4px;font-size: 12px; }
+#account-profile .user h5 span{ background-color: #da511f; color: #fff; padding: 3px 5px; }
+#account-profile .username { background-color: #da511f; color: #fff; padding: 2px 5px 2px 5px; height: 16px ; }
 #account-profile ul {background:none; width:203px;}
-#account-profile ul li {background:none;}
-#account-profile ul div.content {width:160px;}
-
+  #account-profile ul li {background:none; text-transform: uppercase;font-size: 10px;font-weight:bold;}
+  #account-profile ul div.content {width:160px; }
+  #account-profile ul div.content a { color: #333333; }
+  #account-profile ul div.status { position: absolute; left: 200px;background: transparent url(../images/bg-account-status.png) no-repeat 0px 2px;height: 24px; text-indent: -9999em; width: 36px; }
+  #account-profile ul .loans div.content { padding: 2px 0 1px 0; border-top: 1px solid #e9e6e0; border-bottom: 1px solid #e9e6e0;} 
+  #account-profile ul .reservations div.content { padding-bottom: 2px; border-bottom: 1px solid #e9e6e0; }
 
 .ting-item .alma-status.waiting, #content .alma-cart-buttons a.disabled {color:#fff;font-size:10px;}
-
 .ting-item ul.buttons li,
 .ting-overview ul.buttons li {
   border: 0px none  ;
