@@ -293,6 +293,9 @@ ul.pager a, ul.pager a:link,ul.pager  a:visited,ul.pager  a:active,ul.pager ul.p
   padding: 5px 10px;
 }
 
+.page-arrangementer select.form-select {
+  width: 250px;
+}
 
 /*campaigns*/
 .campaign-type-text-only,.campaign-inner,.campaign-text {background:none;}
