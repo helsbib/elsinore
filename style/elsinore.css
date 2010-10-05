@@ -194,7 +194,11 @@ body.node-type-page .panel-threecol-left-stacked-right .panel-middle {background
 .pane-library_feature_list h3, 
 .pane-library_location h3 {background:#88734c none; color:#fff; margin:0; padding:0px 0 2px 10px; font-weight:normal; font-size:10px; text-transform:uppercase; }
 
-.node .content a:hover, .node .content a:focus {text-decoration: underline; color: #004256;background: none; }
+.node .content a:hover, .node .content a:focus {text-decoration: underline; color: #da511f;background: none; }
+.node .content p > a, .node .content p > a:link, .node .content p >a:visited, .node .content p > a:active { text-decoration: underline; color: #004256; }
+.node .content p > a:hover { color: #da511f; }
+
+.node .content h1 a { text-decoration: underline; color: #da511f; }
 
 .content-right h3{width:200px;padding:0 0 2px 10px;}
 
