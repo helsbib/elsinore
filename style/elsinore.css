@@ -124,8 +124,8 @@ body.node-type-page .panel-threecol-left-stacked-right .panel-middle {background
 .panel-threecol-left-stacked .panel-left  {background:none;}
 
 .page-user h2.panel-title { color: #DA511F;}
-  .page-user .node-profile .field-image{width:120px; height:120px; margin:0 0 20px 20px; float:right;}
-      
+  .page-user .node-profile .field-profile-large-image{width:210px; margin:0 20px 20px 20px; float:right;}
+  .page-user .node-profile .field-image { display: none; } 
  #pagefooter{background: url('../images/bg-page-footer.png') no-repeat scroll top left; padding:40px 0 20px 0; height:240px;}     
   #pagefooter-inner {background:none; padding:0 0 0 54px; height:210px;}
 
@@ -293,6 +293,9 @@ ul.pager a, ul.pager a:link,ul.pager  a:visited,ul.pager  a:active,ul.pager ul.p
   padding: 5px 10px;
 }
 
+.page-arrangementer select.form-select {
+  width: 250px;
+}
 
 /*campaigns*/
 .campaign-type-text-only,.campaign-inner,.campaign-text {background:none;}
