@@ -15,8 +15,8 @@ $is_today = (strtotime(date('Y-m-d')) == strtotime(substr($fields['field_datetim
   </div>
 
   <div class="info">
-    <span><?php print $fields['field_library_ref_nid']->content; ?></span>
     <h4><?php print $fields['title']->content; ?></h4>
+    <span><?php print $fields['field_library_ref_nid']->content; ?></span>
     <?php if (dynamo_datef($start, 'Hi') != '0000'): ?>
     <span class="time">
 			<?php print dynamo_datef($start, 'H:i'); ?> -
