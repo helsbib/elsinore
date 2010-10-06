@@ -29,7 +29,8 @@ a {outline: none;}
     #site-name a{text-indent: -9999em;}
 	  #site-name a{height:38px; width:168px; display: block; overflow:hidden; background:transparent url(../images/logo.png) no-repeat 0 0;}
 
-    #path {margin:10px 57px 0;}
+    #path {margin:10px 57px 0; color: #88734c; }
+    #path a { color: #88734c; }
     .breadcrumb{padding:0 5px;} 
     .breadcrumb a,.breadcrumb a:link,.breadcrumb a:visited,.breadcrumb a:active{padding:0 5px; color:#DA511F;}
 
@@ -183,8 +184,10 @@ body.node-type-page .panel-threecol-left-stacked-right .panel-middle {background
 
   .subject{padding:0 0 6px 0; }
   .subject a, .subject a:link, .subject a:visited, .subject a:active {background-color:#006889; padding:2px ; font-size:9px; line-height:14px; margin:0;}
-  .meta a, .meta a:link, .meta a:visited, .meta a:active {color:#004256;}
+  .meta a, .meta a:link, .meta a:visited, .meta a:active {color:#88734c;}
   .meta ul li, .view .meta ul li {border:none!important; color:#004256;}
+  .meta ul li > a { text-transform: uppercase; }
+
   a, a:link, a:visited, a:active, ul.pager li a {color:#88734c;}
  
   ul.menu li.leaf > a.active, ul.menu li > a.active, li.active-trail > a {color:#88734c;  font-weight:bold;  }
@@ -319,7 +322,7 @@ width:95px;
 #featured ul.ui-tabs-nav{position:absolute; z-index:20; top:0; left:448px; list-style:none;  padding:0; margin:0;  width:220px;}
   #featured ul.ui-tabs-nav li{color:#666; border:none;}
     #featured li.ui-tabs-nav-item a:hover,  #featured ul.ui-tabs-nav li.ui-tabs-selected a:hover{text-decoration:none!important; color:#eee;l}
-    #featured li.ui-tabs-nav-item a{color:#fff;display:block; background: url(../images/tab.png) no-repeat; width: 202px; height: 43px; overflow:hidden; font-weight:normal; padding:5px 0 0 20px; line-height:13px;text-transform: uppercase;}
+    #featured li.ui-tabs-nav-item a{color:#fff;display:block; background: url(../images/tab.png) no-repeat; width: 202px; height: 43px; overflow:hidden; font-weight:normal; padding:5px 0 0 20px; line-height:17px;text-transform: uppercase;}
 
     #featured li.ui-tabs-selected{}
     #featured ul.ui-tabs-nav li.ui-tabs-selected a{background: url(../images/tab-active.png) no-repeat; width: 202px; height: 43px; overflow:hidden;  padding-top:5px; color:#fff;}
