@@ -26,7 +26,7 @@ div.ac_results li {
 
 
 #ting-search-form label {
-    left:-294px;
+    left:-284px;
 }
 
 .content-left .panel-left .view-taxonomy-term-view {
@@ -72,4 +72,16 @@ body.not-front #pagebody {
 
 .ting-item .alma-availability {
     width:509px;
+}
+
+body.page-arrangementer .panel-middle  {
+    width:530px;
+}
+
+.view-event-list .view-filters  {
+    padding-left: 200px;
+}
+
+#ting-search-form .form-text {
+    width: 250px;
 }
