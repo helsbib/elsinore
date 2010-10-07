@@ -44,7 +44,7 @@ a {outline: none;}
       #ting-search-form{background:none; padding:0; margin:0; position:absolute; top:183px; left:54px; width:355px;}
         #ting-search-form .form-text {height:31px; width:259px; padding:0 0 0 30px; margin:0 4px 0 0; border: 0px solid #999;}
         #ting-search-form .form-button {padding:0; float:left;}
-        #ting-search-form .form-submit {border: 1px solid #e3dfd5; background:#e3dfd5; height:31px; padding: 0 15px; text-transform: uppercase;}
+        #ting-search-form .form-submit {border: 1px solid #e3dfd5; background:#e3dfd5; height:31px; padding: 0 10px; text-transform: uppercase;}
         #ting-search-form div.example{display:none;}
         #ting-search-form label {padding:3px 0 0px 30px;}
         #account {position:absolute; top:120px; left:756px; margin:0; width:210px;}
