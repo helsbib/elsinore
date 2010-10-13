@@ -17,7 +17,6 @@ Hva gider du ikke lige at blive   overskrevet?
   ding_panels_content_libary_location.tpl.php
   
 -->
-
 <div class="library-info">
 
 	<div class="library-map">
@@ -46,6 +45,11 @@ Hva gider du ikke lige at blive   overskrevet?
 	      <span class="type"><?php print t('Fax'); ?></span> <?php print $node->location['fax']; ?>
 	    </div>
 	    <?php } ?>
+      <?php if (!empty($node->field_email[0]['email'])): ?>
+        <div class="email">
+          <span class="type"><?php echo t('Email'); ?></span> <?php echo l($node->field_email[0]['email'], 'mailto:' . $node->field_email[0]['email'], array('absolute' => true)) ; ?>
+        </div>
+      <?php endif; ?>
 	  </div>
 
 	  <?php print $library_links; ?>  
