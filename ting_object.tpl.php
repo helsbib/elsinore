@@ -8,7 +8,6 @@
  * Available variables:
  * - $object: The TingClientObject instance we're rendering.
  */
-dsm($object);
 ?>
 <!-- ting_object.tpl -->
 <div id="ting-object">
