@@ -267,7 +267,7 @@ body.page-biblioteker .panel-left .view ul li {clear:both; padding:5px 0 5px 0;}
 #event-list li div.info span.time{font-size:12px;}
 
   #event-list .more-link {padding:0 5px 0 10px; float:right; background: transparent url(../images/arrow.png) no-repeat left center;}
-
+.page-arrangementer .meta, .page-arrangementer .meta a {font-size:12px; }
 
 .feed-icon{float:left;  font-size:10px}
 .view .feed-icon{margin:0;}
