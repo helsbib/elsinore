@@ -29,10 +29,10 @@ a {outline: none;}
     #site-name a{text-indent: -9999em;}
 	  #site-name a{height:38px; width:168px; display: block; overflow:hidden; background:transparent url(../images/logo.png) no-repeat 0 0;}
 
-    #path {margin:10px 57px 0; color: #88734c; }
+    #path {margin:10px 57px 0; color: #88734c;font-size:12px; }
     #path a { color: #88734c; }
-    .breadcrumb{padding:0 5px;} 
-    .breadcrumb a,.breadcrumb a:link,.breadcrumb a:visited,.breadcrumb a:active{padding:0 5px; color:#DA511F;}
+    .breadcrumb{padding:0 5px;font-size: 12px;} 
+    .breadcrumb a, .breadcrumb a:link, .breadcrumb a:visited, .breadcrumb a:active{padding:0 5px; color:#DA511F;}
 
     #helpers{position:absolute; top:43px; left:766px; margin:0; width:230px; }
       #helpers li{float:left; margin-right:20px; font-size:10px;}
@@ -441,5 +441,5 @@ ul.alma-cart-buttons li {padding:0 5px;}
 #ting-search-result .types li.available, .types li.available { background-color: #9fb310; }
 
 /** Undo fixed width from Dynamo **/
-.pane-library_feature_list ul.item-list li { width: auto; }
+/**.pane-library_feature_list ul.item-list li { width: auto; } **/
 
