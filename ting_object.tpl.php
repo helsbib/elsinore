@@ -46,7 +46,7 @@
                   $titles = array_merge($titles, $dc_title);
                 }
               ?>
-              <?php if (!empty($titles)) { ?>
+              <?php if (!empty($titles) && is_array($titles)) { ?>
                 <h2><?php print check_plain(implode(', ', $titles)); ?></h2>
               <?php } ?>
               <?php if (!empty($object->record['dcterms:alternative'][''])) { ?>
@@ -107,8 +107,17 @@
             <?php if (!empty($object->record['dc:subject']['oss:genre'])) { ?>
               <?php print theme('item_list', $object->record['dc:subject']['oss:genre'], t('Genre'), 'span', array('class' => 'subject'));?>
             <?php } ?>
-            <?php if (!empty($object->subjects)) { ?>
-              <?php print theme('item_list', $object->subjects, t('Subjects'), 'span', array('class' => 'subject'));?>
+            <?php if (!empty($object->subjects) || !empty($object->record['dcterms:spatial']['dkdcplus:DBCS']) || !empty($object->record['dcterms:temporal']['dkdcplus:DBCP'])) { ?>
+              <div class="item-list">
+                <span class="title"><?php echo t('Subjects'); ?></span>
+                <span class="item-list">
+                  <?php 
+                    $list = array_merge(is_array($object->subjects) ? $object->subjects : array(), is_array($object->record['dcterms:spatial']['dkdcplus:DBCS']) ? $object->record['dcterms:spatial']['dkdcplus:DBCS']: array(), is_array($object->record['dcterms:temporal']['dkdcplus:DBCP']) ? $object->record['dcterms:temporal']['dkdcplus:DBCP'] :array());
+                  ?>
+                  <?php echo implode(', ', $list); ?>
+                </span>
+
+              <?php #print theme('item_list', array_merge($object->subjects, $object->record['dcterms:spatial']['dkdcplus:DBCS'],$object->record['dcterms:temporal']['dkdcplus:DBCP']), t('Subjects'), 'span', array('class' => 'subject'));?>
             <?php } ?>
             <?php if (!empty($object->record['dc:subject']['dkdcplus:DK5'])) { ?>
               <?php print theme('item_list', $object->record['dc:subject']['dkdcplus:DK5'], t('Classification'), 'span', array('class' => 'subject'));?>
@@ -182,12 +191,6 @@
             <?php if (!empty($object->record['dc:rights'][''])) { ?>
               <?php print theme('item_list', $object->record['dc:rights'][''], t('Rights'), 'span', array('class' => 'rights'));?>
             <?php } ?>
-            <?php if (!empty($object->record['dcterms:spatial']['dkdcplus:DBCS'])): ?>
-              <?php echo theme('item_list', $object->record['dcterms:spatial']['dkdcplus:DBCS'], t('Spatial'), 'span', array('class' => 'spatial')); ?> 
-            <?php endif; ?>
-            <?php if (!empty($object->record['dcterms:temporal']['dkdcplus:DBCP'])): ?>
-              <?php echo theme('item_list', $object->record['dcterms:temporal']['dkdcplus:DBCP'], t('Temporal'), 'span', array('class' => 'spatial')); ?> 
-            <?php endif; ?>
           </div>
 
           <?php
