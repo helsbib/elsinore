@@ -95,7 +95,7 @@ div.comment blockquote { font-size: 12px;}
 .panel-top {background:none}
 
 .pane-node_content .panel-title {
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
 
 #ting-facet-browser li li {
@@ -117,9 +117,7 @@ color: #004256;
 .subpage .panel-left{width:670px; padding-right:20px; float:left}
 .subpage .panel-right{width:210px;float:left}
 
-
 body.node-type-page .panel-threecol-left-stacked-right .panel-middle {background:none; padding:0;} 
-
 .view-article-list .article-content{width:320px; float:left;}
 .view-article-list .article-image{width:120px; float:left; padding:0;}
 
