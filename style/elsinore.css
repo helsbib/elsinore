@@ -21,7 +21,8 @@ a {outline: none;}
   .pane-event_list h4 a, 
   .pane-library_feature_list ul li, 
   .view-feature-list li div.title a {font-size:11px;}
-
+.comment {font-size: 12px;}
+div.comment blockquote { font-size: 12px;}
 
 #container {background:none;}
 #pageheader{background: transparent url('../images/bg-header.png') no-repeat 0 0; width: 994px; height: 316px; position:relative;}
