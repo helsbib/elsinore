@@ -229,6 +229,8 @@ body.node-type-page .panel-threecol-left-stacked-right .panel-middle {background
 body.page-arrangementer .panel-middle, body.ding-arrangementer .panel-middle, .tab-navigation-main {background:none;}
 .view-event-list ul li{padding:0 0 10px 0;}
 
+body.ding-blog .panel-pane .node-teaser .content { width: 440px; }
+
 .tab-navigation li, .page-arrangementer .panel-left ul li, .ding-arrangementer .panel-left ul li, .ding-ting-collection .panel-left ul li, .tab-navigation ul li {border:none;}
  
 .pane-tagadelic-2{background:none; padding:0;}
