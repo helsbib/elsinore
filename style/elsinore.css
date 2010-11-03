@@ -101,7 +101,13 @@ div.comment blockquote { font-size: 12px;}
 #ting-facet-browser li li {
 color: #004256;
 }
-.object-information h3 { width:480px; }
+.object-information { font-size: 12px; }
+  .object-information h3 { width:480px; }
+  .object-information .ding-box-wide ul li.first, .object-information .ding-box-wide ul li { font-size: 12px; }
+.pane-recommendation_list ul.ting-recommendation li { font-size: 12px;}
+.pane-recommendation_list ul.ting-recommendation li a { color:#004256 ; text-decoration: underline;}
+.pane-recommendation_list ul.ting-recommendation li a:hover { color:#DA511F; text-decoration: underline;}
+.pane-recommendation_list ul.ting-recommendation li a:hover .title { color:#DA511F; text-decoration: underline;}
 
 .frontpage .panel-content .left{width:670px; padding-right:20px; float:left;}
   .frontpage .panel-content .left .panel-top{width:670px; padding-right:20px; padding-bottom:20px; height:auto;}
