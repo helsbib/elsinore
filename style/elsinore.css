@@ -200,7 +200,7 @@ body.node-type-page .panel-threecol-left-stacked-right .panel-middle {background
 .panel-right h3, #event-list h3,
 .ding-box-pane h3,.ding-box-wide h3, 
 .pane-library_feature_list h3, 
-.pane-library_location h3 {background:#88734c none; color:#fff; margin:0; padding:0px 0 0 10px; line-height: 17px;font-weight:normal; font-size:10px; text-transform:uppercase; }
+.pane-library_location h3 {background:#88734c none; color:#fff; margin:20px 0 0 0; padding:0px 0 0 10px; line-height: 17px;font-weight:normal; font-size:10px; text-transform:uppercase; }
 
 .node .content a, .node .content a:hover, .node .content a:focus {text-decoration: underline; color: #da511f;background: none; }
 .node .content p > a, .node-page .content li a, .node .content a, .node .content p > a:link, .node .content p >a:visited, .node .content p > a:active { text-decoration: underline; color: #004256; }
