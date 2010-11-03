@@ -47,7 +47,7 @@
         <div class="subjects">
           <h4><?php echo t('Subjects:') ?></h4>
           <ul>
-<?php foreach (array_merge(is_array($collection->subjects) ? $collection->subjects : array(), is_array($collection->record['dcterms:spatial']['dkdcplus:DBCS']) ? $collection->record['dcterms:spatial']['dkdcplus:DBCS']: array(), is_array($collection->record['dcterms:temporal']['dkdcplus:DBCP']) ? $collection->record['dcterms:temporal']['dkdcplus:DBCP'] :array()) as $subject): ?>
+            <?php foreach (array_merge(is_array($collection->subjects) ? $collection->subjects : array(), is_array($collection->record['dcterms:spatial']['dkdcplus:DBCS']) ? $collection->record['dcterms:spatial']['dkdcplus:DBCS']: array(), is_array($collection->record['dcterms:temporal']['dkdcplus:DBCP']) ? $collection->record['dcterms:temporal']['dkdcplus:DBCP'] :array()) as $subject): ?>
               <li><?php echo $subject ?></li>
             <?php endforeach; ?>
           </ul>
