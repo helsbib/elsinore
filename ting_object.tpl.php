@@ -116,8 +116,6 @@
                   ?>
                   <?php echo implode(', ', $list); ?>
                 </span>
-
-              <?php #print theme('item_list', array_merge($object->subjects, $object->record['dcterms:spatial']['dkdcplus:DBCS'],$object->record['dcterms:temporal']['dkdcplus:DBCP']), t('Subjects'), 'span', array('class' => 'subject'));?>
             <?php } ?>
             <?php if (!empty($object->record['dc:subject']['dkdcplus:DK5'])) { ?>
               <?php print theme('item_list', $object->record['dc:subject']['dkdcplus:DK5'], t('Classification'), 'span', array('class' => 'subject'));?>
