@@ -190,6 +190,7 @@
               <?php print theme('item_list', $object->record['dc:rights'][''], t('Rights'), 'span', array('class' => 'rights'));?>
             <?php } ?>
           </div>
+        </div>
 
           <?php
           $collection = ting_get_collection_by_id($object->id);

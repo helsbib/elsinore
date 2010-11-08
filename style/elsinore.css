@@ -433,7 +433,7 @@ ul.alma-cart-buttons li {padding:0 5px;}
 .pane-event_list-panel_pane_2 {
   margin-top: 10px;
 }
-
+.ding-box-wide ul li { font-size: 12px;}
 /** Header office hours **/
 #block-views-library-list-block-1 h3 a{ color: #88734C;font-weight: bold; }
 #block-views-library-list-block-1 .views-admin-links { display: none; }
