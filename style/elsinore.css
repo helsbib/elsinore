@@ -23,7 +23,7 @@ a {outline: none;}
   .view-feature-list li div.title a {font-size:11px;}
 .comment {font-size: 12px;}
 div.comment blockquote { font-size: 12px;}
-
+body#tinymce { background: none; }
 #container {background:none;}
 #pageheader{background: transparent url('../images/bg-header.png') no-repeat 0 0; width: 994px; height: 316px; position:relative;}
 	#site-name {height:38px; width:168px; margin:0; padding:0; position:absolute; top:50px; left:55px;}
@@ -253,7 +253,7 @@ body.ding-blog .panel-pane .node-teaser .content { width: 440px; }
 body.page-biblioteker .panel-left .view ul li {clear:both; padding:5px 0 5px 0;}
 .view-library-list .picture{width:120px; height:120px; float:left; }
 .view-library-list .content{width:365px; float:left;}
-
+.view-library-staff-list .field-image-fid { width: 150px; }
 
 /*calendar*/
 #event-list li {background:none; padding:5px 0 0 0;}
