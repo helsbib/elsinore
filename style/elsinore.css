@@ -450,3 +450,5 @@ ul.alma-cart-buttons li {padding:0 5px;}
 /** Undo fixed width from Dynamo **/
 /**.pane-library_feature_list ul.item-list li { width: auto; } **/
 
+.view-library-staff-list table td { width:150px;height:190px; }
+
