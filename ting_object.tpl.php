@@ -116,6 +116,7 @@
                   ?>
                   <?php echo implode(', ', $list); ?>
                 </span>
+              </div>
             <?php } ?>
             <?php if (!empty($object->record['dc:subject']['dkdcplus:DK5'])) { ?>
               <?php print theme('item_list', $object->record['dc:subject']['dkdcplus:DK5'], t('Classification'), 'span', array('class' => 'subject'));?>
@@ -189,7 +190,6 @@
             <?php if (!empty($object->record['dc:rights'][''])) { ?>
               <?php print theme('item_list', $object->record['dc:rights'][''], t('Rights'), 'span', array('class' => 'rights'));?>
             <?php } ?>
-          </div>
         </div>
 
           <?php
