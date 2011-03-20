@@ -92,6 +92,8 @@ body#tinymce { background: none; }
 .panel-threecol-33-34-33-stacked .panel-middle{width:210px; padding-right:20px;}
 
 .panel-threecol-left-stacked .panel-left .view-article-list { width:440px;}
+.panel-threecol-left-stacked .panel-left .view-helbib-article-list { width:440px;}
+
 .panel-top {background:none}
 
 .pane-node_content .panel-title {
@@ -113,6 +115,7 @@ color: #004256;
   .frontpage .panel-content .left .panel-top{width:670px; padding-right:20px; padding-bottom:20px; height:auto;}
   .frontpage .panel-left{width:440px; padding-right:20px; float:left;}
     .frontpage .panel-left .view-article-list { width:440px; float:left;}
+    .frontpage .panel-left .view-helbib-article-list { width:440px; float:left;}
     .frontpage .panel-middle{width:210px; float:left;}
 .frontpage .panel-content .right{width:210px; float:left;}
 
@@ -124,8 +127,11 @@ color: #004256;
 .subpage .panel-right{width:210px;float:left}
 
 body.node-type-page .panel-threecol-left-stacked-right .panel-middle {background:none; padding:0;} 
+
 .view-article-list .article-content{width:320px; float:left;}
 .view-article-list .article-image{width:120px; float:left; padding:0;}
+.view-helbib-article-list .article-content{width:320px; float:left;}
+.view-helbib-article-list .article-image{width:120px; float:left; padding:0;}
 
 .panel-threecol-left-stacked .panel-left  {background:none;}
 
