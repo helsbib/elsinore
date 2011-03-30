@@ -112,4 +112,5 @@ function elsinore_preprocess_ting_object(&$variables) {
   // Want all subjects on one line. We do that by pretending there is
   // only one subject that is the concatenation of all the subjects.
   $object->subjects = array(implode(', ', $object->subjects));
+  $variables['buttons'] = array_reverse($variables['buttons']);
 }
