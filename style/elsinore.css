@@ -369,7 +369,7 @@ width:95px;
   #account-profile ul .loans div.content { padding: 2px 0 1px 0; border-top: 1px solid #e9e6e0; border-bottom: 1px solid #e9e6e0;}
   #account-profile ul .reservations div.content { padding-bottom: 2px; border-bottom: 1px solid #e9e6e0; }
 
-.ting-item .alma-status.waiting, #content .alma-cart-buttons a.disabled {color:#fff;font-size:10px;}
+.ting-item .ting-status.waiting, #content .add-to-cart a.disabled {color:#fff;font-size:10px;}
 .ting-item ul.buttons li,
 .ting-overview ul.buttons li {
   border: 0px none  ;
@@ -389,22 +389,22 @@ width:95px;
   color: #fc6;
 }
 
-#content .alma-cart-buttons a.add-to-cart,
-.ting-item ul.buttons li a.add-to-cart,
-.ting-overview ul.buttons li a.add-to-cart {
+#content .add-to-cart a,
+.ting-item ul.buttons .add-to-cart a,
+.ting-overview ul.buttons .add-to-cart a {
   background-color: #9fb310;
 }
 
-#content .alma-cart-buttons a.add-to-cart:hover,
-.ting-item ul.buttons li a.add-to-cart:hover,
-.ting-overview ul.buttons li a.add-to-cart:hover {
+#content .add-to-cart a:hover,
+.ting-item ul.buttons .add-to-cart a:hover,
+.ting-overview ul.buttons .add-to-cart a:hover {
   color: #080;
 }
 
-#content .alma-cart-buttons a.disabled,
+#content .add-to-cart a.disabled,
 .ting-item ul.buttons li a.disabled,
 .ting-overview ul.buttons li a.disabled,
-#content .alma-cart-buttons a.disabled:hover,
+#content .add-to-cart a.disabled:hover,
 .ting-item ul.buttons li a.disabled:hover,
 .ting-overview ul.buttons li a.disabled:hover {
   color: #999;
@@ -413,7 +413,7 @@ width:95px;
 }
 
 .ting-item ul.buttons li {background:none; margin:0 5px;}
-ul.alma-cart-buttons li {padding:0 5px;}
+ul li.add-to-cart {padding:0 5px;}
 .ting-item ul.buttons li:hover {background: transparent none;}
 
 .panel-region-separator{clear:both}
