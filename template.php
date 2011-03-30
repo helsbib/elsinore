@@ -94,3 +94,22 @@ function  elsinore_preprocess_ding_panels_content_library_title(&$variables) {
   }
 }
 
+/**
+ * Preprocess ting objects.
+ */
+function elsinore_preprocess_ting_object(&$variables) {
+  $object = $variables['object'];
+
+  // Add spatial information to subjects.
+  if (is_array($object->record['dcterms:spatial']['dkdcplus:DBCS'])) {
+    $object->subjects = array_merge($object->subjects, $object->record['dcterms:spatial']['dkdcplus:DBCS']);
+  }
+
+  // Add temporal information to subjects.
+  if (is_array($object->record['dcterms:temporal']['dkdcplus:DBCP'])) {
+    $object->subjects = array_merge($object->subjects, $object->record['dcterms:temporal']['dkdcplus:DBCP']);
+  }
+  // Want all subjects on one line. We do that by pretending there is
+  // only one subject that is the concatenation of all the subjects.
+  $object->subjects = array(implode(', ', $object->subjects));
+}
