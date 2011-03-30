@@ -353,7 +353,8 @@ width:95px;
 
 
 
-.pane-alma_user_reservations_details h3, .pane-alma_user_loans_details h3 { color:#da511f;}
+.pane-ding_reservation_list_form h3,
+.pane-ding_library_user_loan_list_form h3 { color:#da511f;}
 #account-profile .user { font-size: 12px; text-transform: uppercase;}
 #account-profile .user > .logout { float:right;margin-right: 10px;position: absolute;right: 0px;top: 10px; }
   #account-profile .user > .logout a { background: url(../images/pointer-logout.png) 0 4px no-repeat; padding-left: 10px; }
