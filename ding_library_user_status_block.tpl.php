@@ -36,10 +36,12 @@ else{
       <?php print l($display_name, $profile_link, array('attributes' => array('class' =>'username')));  ?>
     </span>
   </div>
-  <?php if ($user_status_available): ?>
-    <div class="cart">
-      <?php echo l(t('<div class="count">' . $cart_count . '</div>'), 'user/' . $user->uid . '/cart', array('html' => true)) ?>
-    </div>
+  <?php if ($status_available): ?>
+      <?php if ($has_cart): ?>
+      <div class="cart">
+        <?php echo l(t('<div class="count">' . $cart_count . '</div>'), 'user/' . $user->uid . '/cart', array('html' => true)) ?>
+      </div>
+    <?php endif; ?>
 
     <ul>
       <li class="loans">
