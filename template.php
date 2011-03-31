@@ -112,5 +112,14 @@ function elsinore_preprocess_ting_object(&$variables) {
   // Want all subjects on one line. We do that by pretending there is
   // only one subject that is the concatenation of all the subjects.
   $object->subjects = array(implode(', ', $object->subjects));
+
+  // Reverse order of buttons.
+  $variables['buttons'] = array_reverse($variables['buttons']);
+}
+
+/**
+ * Preprocess ting list item.
+ */
+function elsinore_preprocess_ting_list_item(&$variables) {
   $variables['buttons'] = array_reverse($variables['buttons']);
 }
