@@ -248,6 +248,7 @@ body.ding-blog .panel-pane .node-teaser .content { width: 440px; }
 .pane-tagadelic-2{background:none; padding:0;}
 /* artcile listings */
 .panel-left .view ul li,
+.ting-item ul.buttons li,
 .panel-left .pane-categories ul.item-list li,
 .panel-left .pane-library_feature_detail_list ul li,
 .pane-event_list-panel_pane_1 .view-event-list li  {background:none;  margin:0;  padding:5px 0px;  border-top: 1px solid #e9e6e0; }
@@ -457,5 +458,5 @@ ul li.add-to-cart {padding:0 5px;}
 /** Undo fixed width from Dynamo **/
 /**.pane-library_feature_list ul.item-list li { width: auto; } **/
 
-.view-library-staff-list table td { width:150px;height:190px; }
+.view-helbib-library-staff-list table td { width:150px;height:190px; }
 
