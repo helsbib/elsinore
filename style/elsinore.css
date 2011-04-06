@@ -243,7 +243,7 @@ body.page-arrangementer .panel-middle, body.ding-arrangementer .panel-middle, .t
 
 body.ding-blog .panel-pane .node-teaser .content { width: 440px; }
 
-.tab-navigation li, .page-arrangementer .panel-left ul li, .ding-arrangementer .panel-left ul li, .ding-ting-collection .panel-left ul li, .tab-navigation ul li {border:none;}
+.page-arrangementer .panel-left ul li, .ding-arrangementer .panel-left ul li  {border:none;}
 
 .pane-tagadelic-2{background:none; padding:0;}
 /* artcile listings */
