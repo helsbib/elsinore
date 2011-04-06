@@ -31,7 +31,6 @@ stylesheets[print][] = style/print.css
 scripts[] = script/elsinore.js
 scripts[] = script/kpi/include1.js
 scripts[] = script/kpi/dcs_tag.js
-scripts[] = script/DD_belatedPNG_0.0.8a-min.js
 ie stylesheets[if IE 6][all][] = style/elsinore-ie6.css
 
 ;---------------------panels plugins ----------------------------

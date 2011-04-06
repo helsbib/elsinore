@@ -17,11 +17,15 @@
   <?php print $head; ?>
   <?php print $styles; ?>
   <?php print $scripts; ?>
+  <!--[if (IE 6)|(IE 7) ]>
+    <link type="text/javascript" src="/<?php print(path_to_theme());?>/script/elsinore-ie67.js" />
+    <link type="text/javascript" src="/<?php print(path_to_theme());?>/script/DD_belatedPNG_0.0.8a-min.js" />
+  <![endif]-->
 </head>
 <body class="<?php print $body_classes; ?><?php if (!empty($admin)) print ' '.admin;  ?>">
-<?php 
+<?php
 /*adds support for for the admin module*/
-  if (!empty($admin)) print $admin; 
+  if (!empty($admin)) print $admin;
 ?>
 
 <?php if ($help OR $messages) { ?>
@@ -43,7 +47,7 @@
 
         <div id="pageheader">
           <div id="pageheader-inner">
-            
+
             <<?php print $site_name_element; ?> id="site-name">
               <a href="<?php print $base_path; ?>" title="<?php print t('Home'); ?>" rel="home">
                 <?php print $site_name; ?>
@@ -52,25 +56,25 @@
 
 
             <ul id="helpers">
-              
+
              <li> <a class="print" href="javascript:window.print();">Print</a></li>
              <li> <a class="read" href="http://adgangforalle.dk">Læs op</a></li>
              <li> <a class="english" href="/node/189">English</a></li>
             </ul>
-            
+
             <div id="top" class="clearfix">
 
               <div id="header" class="left">
                 <?php print $header ?>
               </div>
-                
+
               <div id="search" class="left">
                 <?php print $search ?>
               </div>
 
               <div id="account" class="left">
                 <?php print $account; ?>
-              </div>  
+              </div>
 
             </div>
 
@@ -85,7 +89,7 @@
             <?php print $breadcrumb; ?>
           </div>
         </div>
-        
+
         <div id="pagebody" class="clearfix">
           <div id="pagebody-inner" class="clearfix">
 
@@ -108,7 +112,7 @@
                 <div id="content-main">
                   <?php print $content; ?>
                 </div>
-                
+
                 <?php
                   if (arg(0) != 'user'  && $tabs){
                     print '<div class="tabs">' . $tabs . '</div>';
@@ -132,13 +136,13 @@
           <div id="pagefooter-inner" class="clearfix">
             <?php print $footer; ?>
           </div>
-        
+
           <div class="footerlink">
             <a href="/node/191">Om hjemmesiden</a>
           </div>
         </div>
 
-        
+
       </div>
     </div>
 
