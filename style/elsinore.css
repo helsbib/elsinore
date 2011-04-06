@@ -251,7 +251,8 @@ body.ding-blog .panel-pane .node-teaser .content { width: 440px; }
 .ting-item ul.buttons li,
 .panel-left .pane-categories ul.item-list li,
 .panel-left .pane-library_feature_detail_list ul li,
-.pane-event_list-panel_pane_1 .view-event-list li  {background:none;  margin:0;  padding:5px 0px;  border-top: 1px solid #e9e6e0; }
+.pane-event_list-panel_pane_1 .view-event-list li,
+#periodical-issue-list li.issue  {background:none;  margin:0;  padding:5px 0px;  border-top: 1px solid #e9e6e0; }
 
 .panel-left .view, .panel-left .pane-library_feature_detail_list ul.item-list {left:0px;}
 .panel-threecol-33-34-33-stacked .panel-left .view-article-list {width:440px;}
@@ -382,6 +383,18 @@ width:95px;
   padding: 10px;
   font-size: 12px;
   line-height: 15px;
+}
+
+#periodical-issue-list ul.buttons li a {
+  background: inherit;
+  padding: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+#periodical-issue-list .buttons a {
+  color: #9CB333;
+  font-weight: normal;
 }
 
 .ting-item ul.buttons li a:hover {
