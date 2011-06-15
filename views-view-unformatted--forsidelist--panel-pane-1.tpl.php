@@ -26,6 +26,8 @@ jquery_ui_add('ui.tabs');
       <?php print $row; ?>
     </div>
   <?php endforeach; ?>
+   <a href="#pause" class="frontpage-featured-tabs-button" id="frontpage-featured-tabs-button-pause"><?php print t('Pause rotation');?></a>
+   <a href="#resume" class="frontpage-featured-tabs-button" id="frontpage-featured-tabs-button-resume"><?php print t('Resume rotation');?></a>
 
 </div>
 

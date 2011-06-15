@@ -473,3 +473,9 @@ ul li.add-to-cart {padding:0 5px;}
 
 .view-helbib-library-staff-list table td { width:150px;height:190px; }
 
+
+
+.frontpage-featured-tabs-button {
+  display:none;
+  float:right;
+}
