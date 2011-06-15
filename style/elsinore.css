@@ -479,3 +479,14 @@ ul li.add-to-cart {padding:0 5px;}
   display:none;
   float:right;
 }
+
+
+#ding-library-user-loan-list-form tr td,#reservations-active tr td,#reservations-fetchable tr td{
+  height:100%;
+}
+
+#ding-library-user-loan-list-form tr td label,#reservations-fetchable tr td label, #reservations-active tr td label{
+  display: block;
+  height: 100%;
+  width: 100%;
+}
