@@ -490,3 +490,7 @@ ul li.add-to-cart {padding:0 5px;}
   height: 100%;
   width: 100%;
 }
+
+a:focus {
+  outline:black dotted thin;
+}
