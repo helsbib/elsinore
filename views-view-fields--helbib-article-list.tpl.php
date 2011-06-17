@@ -37,7 +37,7 @@
  	  <?php print $fields['body']->content; ?>    
   </p>
  	
-	<span class="more-link"><?php print $fields['view_node']->content; ?></span>
+	<span class="more-link"><?php print $fields['title_1']->content; ?></span>
 
 
 <?php if($fields['edit_node']->content){ ?>
