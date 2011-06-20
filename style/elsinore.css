@@ -524,3 +524,21 @@ a:focus {
   padding-top:0px;
   background:none;
 }
+
+#user-login-form #edit-submit{
+  background-color: white;
+  border: 1px solid #EEEEEE;
+  font-size: 10px;
+  padding: 2px 3px;
+  text-transform: uppercase;
+}
+
+#user-login-form div.edit-submit {
+  width: 60px;
+  height: 20px;
+  padding: 0;
+  margin: 0px 0 0 8px;
+  display: block;
+  float: left;
+  overflow: hidden;
+}
