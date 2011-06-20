@@ -529,7 +529,8 @@ a:focus {
   background-color: white;
   border: 1px solid #EEEEEE;
   font-size: 10px;
-  padding: 2px 3px;
+  height: 19px;
+  padding: 0 3px;
   text-transform: uppercase;
 }
 
@@ -540,5 +541,4 @@ a:focus {
   margin: 0px 0 0 8px;
   display: block;
   float: left;
-  overflow: hidden;
 }
