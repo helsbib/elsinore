@@ -39,7 +39,7 @@ else{
   <?php if ($status_available): ?>
       <?php if ($has_cart): ?>
       <div class="cart">
-        <?php echo l(t('<div class="count">' . $cart_count . '</div>'), 'user/' . $user->uid . '/cart', array('html' => true)) ?>
+        <?php echo l('<span class="count">' . $cart_count . '</span>', 'user/' . $user->uid . '/cart', array('html' => true)) ?>
       </div>
     <?php endif; ?>
 
