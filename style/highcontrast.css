@@ -1,0 +1,80 @@
+/*Søgefelt*/
+#ting-search-form .form-text {
+  color:#000;
+}
+/*Søgning: oversigtsside*/
+#ting-search-tabs li.ui-tabs-disabled a {
+  color:#666;
+}
+
+#ting-search-result .subjects h4 {
+  color:#666;
+}
+
+#ting-search-result .subjects li {
+  color:#666;
+}
+
+#ting-search-result .types li.available {
+  background-color:#669900;
+}
+
+#ting-search-result .types .unavailable {
+  background-color:#da511f;
+}
+/*Søgning: Materiale detaljerede oplysninger*/
+.ting-item ul.buttons li a, .ting-overview ul.buttons li a {
+  background-color:#da511f;
+}
+
+#content .add-to-cart a, .ting-item ul.buttons .add-to-cart a, .ting-overview ul.buttons .add-to-cart a {
+  background-color:#669900;
+}
+
+.ting-item .ting-status.available {
+  background-color:#669900;
+}
+/*LOG IND sektion*/
+
+/*Header: Åbningstider*/
+#block-views-library-list-block-1 h3 a {
+  color:#9e6241;
+}
+
+a, a:link, a:visited, a:active, ul.pager li a {
+  color:#9e6241;
+}
+
+#header ul li {
+  color:#9e6241;
+}
+
+/*Footer*/
+#pagefooter-inner ul.menu li.expanded > a {
+  color:#c13f0f;
+}
+
+/*Biblioteksoversigtsside*/
+
+.node-teaser-library .content .open {
+  background-color: #669900;
+}
+
+/*Lånerstatus*/
+ul.primary li a {
+  color:#666;
+  background-color:#EFEFEF;
+}
+
+tr.odd a {
+  color:#da511f;
+}
+
+.pane-ding_reservation_list_form .update-controls-button .edit-remove #edit-remove{
+  color:#da511f;
+}
+
+.userprofile ul.item-list li a{
+  color:#333;
+  background-color: #EFEFEF;
+}

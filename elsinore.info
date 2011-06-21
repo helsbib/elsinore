@@ -27,6 +27,7 @@ features[] = secondary_links
 
 ;--------------------- styles ------------------------------
 stylesheets[all][]   = style/elsinore.css
+stylesheets[all][] = style/highcontrast.css
 stylesheets[print][] = style/print.css
 scripts[] = script/elsinore.js
 scripts[] = script/kpi/include1.js
