@@ -139,7 +139,7 @@ body.node-type-page .panel-threecol-left-stacked-right .panel-middle {background
 .page-user h2.panel-title { color: #DA511F;}
   .page-user .node-profile .field-profile-large-image{width:210px; margin:0 20px 20px 20px; float:right;}
   .page-user .node-profile .field-image { display: none; }
- #pagefooter{background: url('../images/bg-page-footer.png') no-repeat scroll top left; padding:40px 0 20px 0; height:240px;}
+ #pagefooter{background: url('../images/bg-page-footer.png') no-repeat scroll top left; padding:40px 0 20px 0; height:240px; position:relative;}
   #pagefooter-inner {background:none; padding:0 0 0 54px; height:210px;}
 
   #pagefooter-inner ul li.expanded{float:left; padding:0 20px 0 0;}
@@ -149,6 +149,7 @@ body.node-type-page .panel-threecol-left-stacked-right .panel-middle {background
   #pagefooter ul li a {background:none; padding:0;}
 
   #pagefooter .footerlink{padding:0 0 0 54px;}
+  #pagefooter .ting-powered a{ display:block; position:absolute; bottom:16px; right:30px; width:65px; height:32px; background:url(../images/ting-powered.png) top left no-repeat; color:transparent; text-indent:-9999px;}
 
 #pagefooter-inner ul.menu li.expanded {
   margin-right: 10px;

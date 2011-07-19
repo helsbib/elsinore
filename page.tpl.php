@@ -140,6 +140,11 @@
           <div class="footerlink">
             <a href="/node/191">Om hjemmesiden</a>
           </div>
+          
+          <div class="ting-powered">
+            <a href="http://ting.dk">Empowered by Ting</a>
+          </div>
+          
         </div>
 
 

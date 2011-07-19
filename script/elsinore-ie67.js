@@ -14,4 +14,5 @@ Drupal.behaviors.elsinore_pngfix = function () {
     DD_belatedPNG.fix('div#account-profile li.loans div.status span.warning');
     DD_belatedPNG.fix('div#account-profile li.reservations div.status span.ok');
     DD_belatedPNG.fix('div#pageheader-inner ul#helpers li a');
+    DD_belatedPNG.fix('div#pagefooter .ting-powered a');
 };
