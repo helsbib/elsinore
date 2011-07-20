@@ -37,18 +37,6 @@ function elsinore_menu_item_link($link) {
 }
 
 /**
- * Preprocess page template variables.
- */
-function elsinore_preprocess_page(&$variables) {
-  // Add KPI index noscript to the closure.
-  $variables['closure'] .= <<<HTML
-<noscript>
-  <img alt="" border="0" name="DCSIMG" width="1" height="1" src="https://visionize10.visionize.dk/dcsc6jmhht3uwyqgqs2ngnzic_2h8s/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=8.0.2"/>
-</noscript>
-HTML;
-}
-
-/**
  * Preprocess node template variables.
  */
 function elsinore_preprocess_node(&$variables) {
