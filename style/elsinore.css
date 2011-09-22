@@ -544,3 +544,8 @@ a:focus {
   display: block;
   float: left;
 }
+
+/** Local bibliography elements **/
+.ting-overview ul.buttons li.local-bibliography a,
+.ting-item ul.buttons li.local-bibliography a,
+.ting-item .ting-status.local-bibliography { color: #fff; background-color: #009997; }
