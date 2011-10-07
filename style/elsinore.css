@@ -551,5 +551,5 @@ a:focus {
 .ting-item .ting-status.local-bibliography,
 .ting-item a.local-bibliography-order { color: #fff; background-color: #009997; }
 
-.ting-item .object-information a.local-bibliography-order:link { margin-left: 10px; padding: 3px 25px; font-size: 10px; text-align: center; line-height: 10px; } 
+.ting-item .object-information a.local-bibliography-order:link { margin-left: 10px; padding: 3px 25px; font-size: 10px; text-align: center; line-height: 20px; } 
 
