@@ -55,7 +55,9 @@ body#tinymce { background: none; }
         #edit-pass-wrapper, #edit-pass-wrapper input {width:130px;}
         #user-login-form #edit-pass-wrapper input { width:130px;}
         #user-login-form #edit-pass-wrapper {width:130px;}
-
+        #user-login-form .new_loaner {clear: both;}
+          #user-login-form .new_loaner div {padding: 15px 0 15px 10px;background: transparent url(../images/arrow.png) no-repeat left center;zoom: 1;font-size:10px;color:#000;text-decoration: underline;
+}
         #account #edit-remember-me-wrapper label {color:#999;}
 
         #account a {color:#000;background: none;}
@@ -551,5 +553,5 @@ a:focus {
 .ting-item .ting-status.local-bibliography,
 .ting-item a.local-bibliography-order { color: #fff; background-color: #009997; }
 
-.ting-item .object-information a.local-bibliography-order:link { margin-left: 10px; padding: 3px 25px; font-size: 10px; text-align: center; line-height: 20px; } 
+.ting-item .object-information a.local-bibliography-order:link { margin-left: 10px; padding: 3px 25px; font-size: 10px; text-align: center; line-height: 20px; }
 

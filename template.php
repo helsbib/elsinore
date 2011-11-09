@@ -21,7 +21,7 @@ function elsinore_user_login_block($form){
   $submit = drupal_render($form['submit']);
   $remember = drupal_render($form['remember_me']);
 
-  return  $name . $pass .$submit . $remember . drupal_render($form);
+  return  $name . $pass .$submit . $remember . drupal_render($form) . '<div class="new_loaner"><div><a href="/DIN+SIDE/Ny+låner%3F">Sådan bliver du låner...</a></div></div>';
 }
 
 /**
