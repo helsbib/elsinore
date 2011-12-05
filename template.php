@@ -2,6 +2,21 @@
 // $Id$
 
 /**
+ * Overrides dynamo filefield icon.
+ */
+function elsinore_filefield_icon($file) {
+  if (is_object($file)) {
+    $file = (array) $file;
+  }
+  $alt = t('PDF file');
+
+  if ($icon_url = filefield_icon_url($file)) {
+    $icon = '<img alt="'. $alt .'" src="'. $icon_url .'" />';
+  }
+  return $icon;
+}
+
+/**
  * Override of theme_ting_search_form().
  */
 function elsinore_ting_search_form($form){
