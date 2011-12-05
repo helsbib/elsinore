@@ -41,6 +41,8 @@
 <?php } ?>
 
 <div id="container" class="clearfix">
+  <!-- Skip navigation link - used by screenreaders -->
+  <a class="skip-navigation" href="#content"><?php print t('Skip navigation');?></a>
 
     <div id="page" class="minheight">
       <div id="page-inner" class="clearfix">
