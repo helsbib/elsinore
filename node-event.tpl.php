@@ -59,8 +59,7 @@
       <?php print $field_datetime_rendered ?>
       <?php print ($node->field_entry_price[0]['value'] != 0 ? $field_entry_price_rendered : t('Gratis entré')); ?>
     </div>
-    <?php print $node->content['field_teaser']['#children'] ?>
-    <?php print $node->content['body']['#value'] ?>
+       <?php print $content; ?>
   </div>
 
   <div class="meta">
