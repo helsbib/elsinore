@@ -62,12 +62,6 @@ function elsinore_preprocess_node(&$variables) {
       $variables['classes'] .= ' page-type-' . $page_type;
     }
   }
-  /*
-   * Someone removed links from node display, so we add in flag by hand.
-   */
-  if (module_exists('flag')) {
-    $variables['content'] .= flag_create_link('ding_redia_feed_mobileapp', $variables['node']->nid);
-  }
 }
 
 /**
