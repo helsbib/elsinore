@@ -549,6 +549,10 @@ a:focus,
   float: left;
 }
 
+.pane-node_body_title a {
+  text-decoration: underline;
+}
+
 /** Local bibliography elements **/
 .ting-overview ul.buttons li.local-bibliography-order a,
 .ting-item ul.buttons li.local-bibliography-order a,
