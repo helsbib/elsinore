@@ -5,14 +5,19 @@
  * Overrides dynamo filefield icon.
  */
 function elsinore_filefield_icon($file) {
+  $icon = '';
+
+  // Cast file to object for uniform access.
   if (is_object($file)) {
     $file = (array) $file;
   }
+
   $alt = t('PDF file');
 
   if ($icon_url = filefield_icon_url($file)) {
-    $icon = '<img alt="'. $alt .'" src="'. $icon_url .'" />';
+    $icon = theme('image', $icon_url, t('PDF file'));
   }
+
   return $icon;
 }
 
