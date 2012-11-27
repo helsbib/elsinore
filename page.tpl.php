@@ -1,8 +1,6 @@
 <?php
-// $Id$
-
 /**
- * @file page.tpl.php
+ * @file
  * Main page template file for the dynamo theme.
  */
 ?>
@@ -12,14 +10,14 @@
   Dynamo!
 -->
 <head>
-<!--<meta http-equiv="X-UA-Compatible" content="IE=8; chrome=1" />-->
+  <meta http-equiv="X-UA-Compatible" content="IE=8; chrome=1" />
   <title><?php print $head_title; ?></title>
   <?php print $head; ?>
   <?php print $styles; ?>
   <?php print $scripts; ?>
   <!--[if (IE 6)|(IE 7) ]>
-    <link type="text/javascript" src="/<?php print(path_to_theme());?>/script/elsinore-ie67.js" />
-    <link type="text/javascript" src="/<?php print(path_to_theme());?>/script/DD_belatedPNG_0.0.8a-min.js" />
+    <link type="text/javascript" src="<?php echo $base_path . $directory; ?>/script/elsinore-ie67.js" />
+    <link type="text/javascript" src="<?php echo $base_path . $directory; ?>/script/DD_belatedPNG_0.0.8a-min.js" />
   <![endif]-->
 </head>
 <body class="<?php print $body_classes; ?><?php if (!empty($admin)) print ' '.admin;  ?>">
