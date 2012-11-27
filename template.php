@@ -60,6 +60,15 @@ function elsinore_menu_item_link($link) {
 }
 
 /**
+ * Preprocess page template variables.
+ */
+function elsinore_preprocess_page(&$variables) {
+  if (!empty($variables['admin'])) {
+    $variables['body_classes'] .= ' admin';
+  }
+}
+
+/**
  * Preprocess node template variables.
  */
 function elsinore_preprocess_node(&$variables) {

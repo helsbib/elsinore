@@ -20,13 +20,15 @@
     <link type="text/javascript" src="<?php echo $base_path . $directory; ?>/script/DD_belatedPNG_0.0.8a-min.js" />
   <![endif]-->
 </head>
-<body class="<?php print $body_classes; ?><?php if (!empty($admin)) print ' '.admin;  ?>">
+<body class="<?php print $body_classes; ?>">
 <?php
-/*adds support for for the admin module*/
-  if (!empty($admin)) print $admin;
+  // Adds support for for the admin module.
+  if (!empty($admin)):
+    print $admin;
+  endif;
 ?>
 
-<?php if ($help OR $messages) { ?>
+<?php if ($help || $messages): ?>
   <div id="drupal-messages">
     <div id="messages-hide">
       <a href="#"><?php print t('hide'); ?></a>
@@ -36,7 +38,7 @@
     <?php print $messages ?>
 
     </div>
-<?php } ?>
+<?php endif; ?>
 
 <div id="container" class="clearfix">
   <!-- Skip navigation link - used by screenreaders -->
@@ -80,9 +82,9 @@
 
             <div id="navigation">
               <div id="navigation-inner">
-                <?php if ($primary_links){ ?>
+                <?php if ($primary_links): ?>
                   <?php print theme('links', $primary_links); ?>
-                <?php } ?>
+                <?php endif; ?>
               </div>
             </div>
 
@@ -93,20 +95,20 @@
         <div id="pagebody" class="clearfix">
           <div id="pagebody-inner" class="clearfix">
 
-            <?php if ($left) { ?>
+            <?php if ($left): ?>
               <div id="content-left">
                 <?php print $left; ?>
               </div>
-            <?php } ?>
+            <?php endif; ?>
 
             <div id="content">
               <div id="content-inner">
 
                 <?php
                   /*if were in the user pages add the tabs in the top*/
-                  if (arg(0) == 'user' && is_numeric(arg(1)) && $tabs){
+                  if (arg(0) == 'user' && is_numeric(arg(1)) && $tabs):
                     print '<div class="tabs-user">' . $tabs . '</div>';
-                  }
+                  endif;
                 ?>
 
                 <div id="content-main">
@@ -114,20 +116,20 @@
                 </div>
 
                 <?php
-                  if (arg(0) != 'user'  && $tabs){
+                  if (arg(0) != 'user'  && $tabs):
                     print '<div class="tabs">' . $tabs . '</div>';
-                  }
+                  endif;
                 ?>
 
 
               </div>
             </div>
 
-            <?php if ($right) { ?>
+            <?php if ($right): ?>
               <div id="content-right">
                 <?php print $right; ?>
               </div>
-            <?php } ?>
+            <?php endif; ?>
 
           </div>
         </div>
@@ -140,11 +142,11 @@
           <div class="footerlink">
             <a href="/node/191">Om hjemmesiden</a>
           </div>
-          
+
           <div class="ting-powered">
             <a href="http://ting.dk">Empowered by Ting</a>
           </div>
-          
+
         </div>
 
 
@@ -155,4 +157,3 @@
 <?php print $closure; ?>
 </body>
 </html>
-
