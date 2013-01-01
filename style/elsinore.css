@@ -588,3 +588,11 @@ a:focus,
   float: right;
   width: 100px;
 }
+
+/** Header sizes. See
+ * https://libraryding.lighthouseapp.com/projects/73202/tickets/169-lidt-stylesheet-tilrettelser
+ * for details. **/
+.node .content h2 {
+  font-size: 100%;
+  font-weight: bold;
+}
