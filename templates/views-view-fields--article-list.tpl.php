@@ -23,12 +23,25 @@ $fields['field_list_image_fid']->content = str_replace('alt=""', 'alt="' . check
       </ul>
       <?php } ?>
 
-      <?php print $fields['created']->content; ?>
+      <?php
+      // For events, display the event date and time instead of the creation
+      // date and author information.
+      if (!empty($fields['field_datetime_value']->raw)): ?>
 
-      <?php if($fields['name']->content){ ?>
-        <i><?php print t('by'); ?></i>
-        <span class="author"><?php print $fields['name']->content; ?></span>
-      <?php } ?>
+        <?php echo $fields['field_datetime_value']->content; ?>
+
+      <?php
+      // For non-events, business as usual.
+      else: ?>
+
+        <?php print $fields['created']->content; ?>
+
+        <?php if($fields['name']->content){ ?>
+          <i><?php print t('by'); ?></i>
+          <span class="author"><?php print $fields['name']->content; ?></span>
+        <?php } ?>
+
+      <?php endif; ?>
 
       <?php
         if($fields['comment_count']->raw >= "1"){
