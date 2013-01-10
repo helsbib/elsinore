@@ -596,3 +596,15 @@ a:focus,
   font-size: 100%;
   font-weight: bold;
 }
+
+/** New front page blog **/
+.view-helbib-frontpage-blog .article-content{
+  float: left;
+  width: 320px;
+}
+
+.view-helbib-frontpage-blog .article-image{
+  float: left;
+  padding: 0;
+  width: 120px;
+}
