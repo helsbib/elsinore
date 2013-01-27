@@ -21,6 +21,11 @@
   <![endif]-->
 </head>
 <body class="<?php print $body_classes; ?>">
+
+  <div id="skip-link">
+    <a href="#content-main" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
+  </div>
+
 <?php
   // Adds support for for the admin module.
   if (!empty($admin)):
@@ -41,8 +46,6 @@
 <?php endif; ?>
 
 <div id="container" class="clearfix">
-  <!-- Skip navigation link - used by screenreaders -->
-  <a class="skip-navigation" href="#content"><?php print t('Skip navigation');?></a>
 
     <div id="page" class="minheight">
       <div id="page-inner" class="clearfix">
