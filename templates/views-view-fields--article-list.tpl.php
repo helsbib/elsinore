@@ -6,7 +6,7 @@
 
 // Insert title as alt text. Would like to do this in a preprocess function,
 // but this doesn't seem possible with current version of Views.
-$fields['field_list_image_fid']->content = str_replace('alt=""', 'alt="' . check_plain($fields['title']->raw) . '"', $fields['field_list_image_fid']->content);
+$list_image = str_replace('alt=""', 'alt="' . check_plain($fields['title']->raw) . '"', $fields['field_list_image_fid']->content);
 ?>
 <!-- views-view-fields- -article-list.tpl.php -->
 
@@ -65,7 +65,7 @@ $fields['field_list_image_fid']->content = str_replace('alt=""', 'alt="' . check
   </div>
 
   <div class="article-image">
-    <?php print $fields['field_list_image_fid']->content; ?>
+    <?php print $list_image; ?>
   </div>
 
 </div>
