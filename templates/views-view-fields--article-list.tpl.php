@@ -12,16 +12,16 @@ $list_image = str_replace('alt=""', 'alt="' . check_plain($fields['title']->raw)
 
 <div class="clearfix">
   <div class="article-content">
-    <div class="subject"><?php print $fields['tid']->content; ?> </div>
+    <div class="subject"><?php print $fields['tid']->content; ?></div>
 
     <h2><?php print $fields['title']->content; ?></h2>
 
     <div class="meta">
-      <?php if($fields['field_library_ref_nid']->content){ ?>
+      <?php if($fields['field_library_ref_nid']->content): ?>
       <ul>
         <li><?php print $fields['field_library_ref_nid']->content; ?></li>
       </ul>
-      <?php } ?>
+      <?php endif; ?>
 
       <?php
       // For events, display the event date and time instead of the creation
@@ -44,9 +44,9 @@ $list_image = str_replace('alt=""', 'alt="' . check_plain($fields['title']->raw)
       <?php endif; ?>
 
       <?php
-        if($fields['comment_count']->raw >= "1"){
-          print "(". $fields['comment_count']->content .")";
-        }
+        if ($fields['comment_count']->raw >= "1"):
+          print '(' . $fields['comment_count']->content . ')';
+        endif;
       ?>
 
     </div>
