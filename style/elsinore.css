@@ -1,12 +1,19 @@
 body{background: #DDD url(../images/bg.png) repeat}
-a {outline: none;}
+
+
+
 /*typograhy*/
   body, caption, th, td, input, textarea, select, option, legend, fieldset {font-family: Arial,helvetica,sans-serif;}
   body {color: #222;font-size: 13px;}
   h2 {font-size: 22px;line-height:22px;}
   h4 {font-size: 12px;font-weight: bold;}
+
+a, a:link, a:visited, a:active {
+  color:#006a87;
+  text-decoration: underline;
+}
+
   .meta {color: #88734C;margin-top: 4px;}
-  a, a:link, a:visited, a:active {color:#006a87;}
   .meta a,.meta a:link,.meta a:visited,.meta a:active {color:#006a87;}
   .author a,.author a:link,.author a:visited,.author a:active {color: #006a87;}
   .subject a {background-color: #F26306;font-size:11px;line-height: 18px;padding:0 4px;display: inline-block;margin: 0 0 8px;}
