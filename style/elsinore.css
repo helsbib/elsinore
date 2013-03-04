@@ -16,6 +16,7 @@ a, a:link, a:visited, a:active {
 /* A bunch of differnt links that should not be underlined. */
 #navigation a,
 .pane-menu-menu-forside a,
+.opening-hours-week a,
 #pagefooter-inner a,
 h4 a, h4 a:link, h4 a:visited, h4 a:active,
 h5 a, h5 a:link, h5 a:visited, h5 a:active,
