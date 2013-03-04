@@ -13,6 +13,17 @@ a, a:link, a:visited, a:active {
   text-decoration: underline;
 }
 
+/* A bunch of differnt links that should not be underlined. */
+#navigation a,
+.pane-menu-menu-forside a,
+#pagefooter-inner a,
+h4 a, h4 a:link, h4 a:visited, h4 a:active,
+h5 a, h5 a:link, h5 a:visited, h5 a:active,
+h6 a, h6 a:link, h6 a:visited, h6 a:active {
+  text-decoration: none;
+}
+
+
   .meta {color: #88734C;margin-top: 4px;}
   .meta a,.meta a:link,.meta a:visited,.meta a:active {color:#006a87;}
   .author a,.author a:link,.author a:visited,.author a:active {color: #006a87;}
@@ -196,7 +207,12 @@ body.node-type-page .panel-threecol-left-stacked-right .panel-middle {background
 /*FONTS & COLORS*/
 
   h2 {font-size:22px;  line-height:24px; }
-  h1 a, h1 a:link, h1 a:visited, h1 a:active,  h2 a, h2 a:link, h2 a:visited, h2 a:active, h3 a, h3 a:link, h3 a:visited, h3 a:active {color:#da511f;}
+  h1 a, h1 a:link, h1 a:visited, h1 a:active,
+  h2 a, h2 a:link, h2 a:visited, h2 a:active,
+  h3 a, h3 a:link, h3 a:visited, h3 a:active {
+    color:#da511f;
+    text-decoration: none;
+  }
 
   .subject{padding:0 0 6px 0; }
   .subject a, .subject a:link, .subject a:visited, .subject a:active {background-color:#006889; padding:2px ; font-size:9px; line-height:14px; margin:0;}
