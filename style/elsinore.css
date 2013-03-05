@@ -17,6 +17,7 @@ a, a:link, a:visited, a:active {
 #navigation a,
 .pane-menu-menu-forside a,
 .opening-hours-week a,
+.view-event-list .info span a,
 #pagefooter-inner a,
 h4 a, h4 a:link, h4 a:visited, h4 a:active,
 h5 a, h5 a:link, h5 a:visited, h5 a:active,
@@ -24,6 +25,13 @@ h6 a, h6 a:link, h6 a:visited, h6 a:active {
   text-decoration: none;
 }
 
+/* And a few specific links that should have underlines */
+.view-helbib-frontpage-blog .article-content h2 a,
+.view-event-list .info h4 a,
+.ting-item .info h3 a,
+#ting-search-result h3 a {
+  text-decoration: underline;
+}
 
   .meta {color: #88734C;margin-top: 4px;}
   .meta a,.meta a:link,.meta a:visited,.meta a:active {color:#006a87;}
