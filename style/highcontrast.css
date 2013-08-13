@@ -51,7 +51,7 @@ a, a:link, a:visited, a:active, ul.pager li a {
 
 /*Footer*/
 #pagefooter-inner ul.menu li.expanded > a {
-  color:#c13f0f;
+  color: black;/*#c13f0f;*/
 }
 
 /*Biblioteksoversigtsside*/

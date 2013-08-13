@@ -23,6 +23,10 @@ Drupal.behaviors.elsinore = function () {
         $('#frontpage-featured-tabs-button-pause').fadeIn('fast');
       });
     });
+    $("#nyhedtilmeldform label").inFieldLabels({
+      fadeOpacity:"0.2",
+      fadeDuration:"100"
+    });
 
   }
 };

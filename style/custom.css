@@ -1,0 +1,254 @@
+#header a,
+#header ul li {
+  color:black !important;
+} 
+body {
+  background : none !important;
+
+}
+#block-menu-menu-footer {
+  height: 60%;
+
+}
+
+.view-Footer-logo ul li {
+  float: left;
+  padding-right: 20px;
+}
+
+.view-helbib-frontpage-blog li.pager-item,
+.view-helbib-frontpage-blog li.pager-next,
+.view-helbib-frontpage-blog li.pager-last
+ {
+
+  background : white !important;
+
+}
+
+.view-helbib-frontpage-blog .article-content h2 a {
+  color: black;
+}
+
+#search {
+  background : url(../images/search_bg.jpg);
+  margin-left: 50px;
+  position : absolute;
+  top : 120px;
+  width : 685px;
+}
+
+.views_slideshow_previous,
+.views_slideshow_pause,
+.views_slideshow_next {
+
+  display: none;
+}
+
+.row {
+  width : 670px;
+  display: block;
+  position : relative;
+}
+
+.row-460 {
+  display: block;
+  height: 240px;
+  float :left;
+  width : 70%;
+}
+.row-210 {
+  display: block;
+  float: right;
+  width: 210px;
+  background : #88734c;
+  height: 240px;
+  color: white;
+  position: absolute;
+  right : 0px;
+}
+.row-210 a {
+  color: white;
+}
+.row-210 h3 a,
+.row-210 h3 a:link {
+  color: white;
+  font-weight:bold;
+  padding:0;
+  text-decoration:none;
+  text-transform : uppercase; 
+}
+
+.row-210 h3 {
+  padding: 25px 20px 20px 20px;
+
+}
+
+.row-210 p {
+  padding: 0 20px;
+
+}
+#laesmere  {
+  color:white;
+  padding-left: 20px;
+  text-decoration:none;
+}
+.pane-forside_topslider-panel_pane_1 {
+  background: #88734c;
+  /*margin-bottom: 30px;*/
+}
+.pane-helbib_frontpage_blog-panel_pane_3 {
+  margin-top: 30px;
+}
+.pane-event_list-panel_pane_4 {
+  margin-top : 30px;
+}
+.pane-helbib_frontpage_blog-panel_pane_3 h3 {
+  background: #88734c none;
+  color:white;
+  line-height:1.6; 
+  padding: 0 0 0 10px;
+
+}
+.view-helbib-frontpage-blog .article-content {
+  width: 460px;
+}
+
+.view-helbib-frontpage-blog .article-content p {
+  padding-right:10px;
+
+}
+.view-helbib-frontpage-blog .article-image {
+  margin-bottom:15px;
+  width:210px;
+}
+
+.pane-block-1 {
+  background: #88734c;
+  height:120px;
+  position:relative;
+}
+
+.pane-block-1 h3 {
+  color:white;
+  font-size:14px;
+  font-weight: bold;
+  padding: 10px 20px 5px 20px;
+  width: 200px;
+}
+  
+#tilmeldcheckbox {
+  color:white;
+  left:5px;
+  position : absolute;
+  top: 65px;
+}
+#nyhedtilmeldform {
+  position: absolute;
+  top:15px;
+  width:210px;
+}
+#read-more {
+  font-size: 13px;
+}
+
+#nyhed-tilmeld {
+  background-color: white !important;
+  border: none;
+  bottom: -35px;
+  font-weight: bold;
+  height: 20px;
+  position: absolute;
+  right:15px;
+  width: 50px;
+}
+#nyhedemail {
+  background-color:white;
+  border:none;
+  height:25px;
+  margin: 2px 2px 8px 5px;
+  width:200px;
+}
+
+#nyhedtilmeldform label {
+  padding-left: 15px;
+  position: absolute;
+  top:7px;
+}
+
+#ting-search-form label {
+  font-style:italic;
+
+}
+
+
+.panel-twocol-left-stacked .content-left {
+  /*width: 670px;*/
+  margin-right: 20px;
+  float: left;
+
+}
+
+.content-right {
+  width:210px;
+}
+
+.pane-kampagne-panel_pane_1 .views-row-first,
+.pane-kampagne-panel_pane_1 .views-row-last {
+  float: left;
+  position:relative;
+  width:50%;
+  margin-top: 18px;
+}
+
+.pane-kampagne-panel_pane_1 .views-row-last .field-campaign-image-fid {
+  float:right;
+
+}
+
+/*.field-campaign-link-url {
+  background-color:white;
+  bottom:20px;
+  left:20px;
+  padding:6px 20px;
+  position:absolute;
+}*/
+
+#event-list h3 {
+  margin-bottom:5px;
+  margin-top:31px;
+  padding-top:1px;
+  line-height:1.6;
+  font-size:17px;
+  text-transform:none;
+}
+#event-list li {
+  padding-top:10px;
+}
+
+.view-helbib-frontpage-blog li {
+  padding-top :15px;
+
+}
+
+.field-campaign-link-url a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#Download {
+  color:white;
+  background-color: #da291c;
+  bottom: 20px;
+  left:16px;
+  padding:4px 4px;
+  position:absolute;
+}
+
+#Klik {
+  background-color:white;
+  bottom:20px;
+  left: 23px;
+  padding: 4px 20px;
+  position:absolute;
+}

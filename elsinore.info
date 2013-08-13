@@ -29,6 +29,7 @@ features[] = secondary_links
 stylesheets[all][]   = style/elsinore.css
 stylesheets[all][] = style/highcontrast.css
 stylesheets[print][] = style/print.css
+stylesheets[all][]   = style/custom.css
 scripts[] = script/elsinore.js
 ie stylesheets[if IE 6][all][] = style/elsinore-ie6.css
 
