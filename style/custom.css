@@ -110,11 +110,12 @@ body {
 
 }
 .view-helbib-frontpage-blog .article-content {
-  width: 460px;
+  margin-right: 60px;
+  width: 410px;
 }
 
 .view-helbib-frontpage-blog .article-content p {
-  padding-right:10px;
+
 
 }
 .view-helbib-frontpage-blog .article-image {

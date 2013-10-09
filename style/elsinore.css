@@ -1,5 +1,5 @@
-body{background: #DDD url(../images/bg.png) repeat}
-
+/*body{/*background: #DDD url(../images/bg.png) repeat} */
+body { background : none;}
 
 
 /*typograhy*/
@@ -53,7 +53,7 @@ h6 a, h6 a:link, h6 a:visited, h6 a:active {
 div.comment blockquote { font-size: 12px;}
 body#tinymce { background: none; }
 #container {background:none;}
-#pageheader{background: transparent url('../images/bg-header.png') no-repeat 0 0; width: 994px; height: 316px; position:relative;}
+#pageheader{background: none; /*transparent url('../images/bg-header.png') no-repeat 0 0;*/ width: 994px; height: 316px; position:relative;}
 	#site-name {height:38px; width:168px; margin:0; padding:0; position:absolute; top:50px; left:55px;}
     #site-name a{text-indent: -9999em;}
 	  #site-name a{height:38px; width:168px; display: block; overflow:hidden; background:transparent url(../images/logo.png) no-repeat 0 0;}
@@ -70,12 +70,12 @@ body#tinymce { background: none; }
       #helpers li .english{background: transparent url(../images/uk.png) no-repeat 0 center; padding:5px 0 5px 30px;}
 
     #top{height:281px}
-      #ting-search-form{background:none; padding:0; margin:0; position:absolute; top:183px; left:54px; width:355px;}
-        #ting-search-form .form-text {height:31px; width:259px; padding:0 0 0 30px; margin:0 4px 0 0; border: 0px solid #999;}
+      #ting-search-form{background:none; padding:0; margin:0; position:absolute; top:23px; left:33px; width:500px;}
+        #ting-search-form .form-text {background:white; height:31px; width:325px; padding:0 0 0 10px; margin:10px 20px 0 0; border: 0px solid #999;}
         #ting-search-form .form-button {padding:0; float:left;}
-        #ting-search-form .form-submit {border: 1px solid #e3dfd5; background:#e3dfd5; height:31px; padding: 0 10px; text-transform: uppercase;}
+        #ting-search-form .form-submit {border: 1px solid #da511f; background:#da511f; color:white; font-size:20px; font-weight:bold; height:55px; padding: 0 15px;}
         #ting-search-form div.example{display:none;}
-        #ting-search-form label {padding:3px 0 0px 30px;}
+        #ting-search-form label {background:none; padding:13px 0 0px 20px;}
         #account {position:absolute; top:120px; left:756px; margin:0; width:210px;}
         #user-login-form{background:url("../images/logind.png") no-repeat scroll 0 0 transparent;}
         #user-login-form  #edit-name-wrapper input {width:180px; border:none;}
@@ -105,8 +105,8 @@ body#tinymce { background: none; }
 
       #header{position:absolute; left:245px; top:40px;height:50px;   width:500px;}
 
-    #pagebody {background: transparent url('../images/bg-page-top.png') no-repeat scroll top left; padding-top:34px;    }
-      #pagebody-inner{background: url('../images/bg-page.png') repeat-y top left; padding:0 0 0 54px;}
+    #pagebody {background: none; /*transparent url('../images/bg-page-top.png') no-repeat scroll top left;*/ padding-top:34px;    }
+      #pagebody-inner{background: none; /*url('../images/bg-page.png') repeat-y top left;*/ padding:0 0 0 54px;}
       #content-inner {margin:0;}
 
 .panel-threecol-33-34-33-stacked .left{width:700px;}
@@ -163,8 +163,8 @@ body.node-type-page .panel-threecol-left-stacked-right .panel-middle {background
 .page-user h2.panel-title { color: #DA511F;}
   .page-user .node-profile .field-profile-large-image{width:210px; margin:0 20px 20px 20px; float:right;}
   .page-user .node-profile .field-image { display: none; }
- #pagefooter{background: url('../images/bg-page-footer.png') no-repeat scroll top left; padding:40px 0 20px 0; height:240px; position:relative;}
-  #pagefooter-inner {background:none; padding:0 0 0 54px; height:210px;}
+ #pagefooter{background: none;/* url('../images/bg-page-footer.png') no-repeat scroll top left;*/ padding:40px 0 20px 0; height:334px; position:relative;}
+  #pagefooter-inner {background:none; padding:0 0 0 54px; height:334px;}
 
   #pagefooter-inner ul li.expanded{float:left; padding:0 20px 0 0;}
   #pagefooter-inner ul li span.nolink{padding:0 0 10px 0; width:120px; display:block; text-transform:uppercase; color:#da511f;}
@@ -529,6 +529,7 @@ a:focus,
 }
 
 .page-header-search-header {
+  display : none;
   font-size: 25px;
   position: absolute;
   text-transform: uppercase;
@@ -536,14 +537,15 @@ a:focus,
 }
 
 .page-header-login-form {
-  background-color: #DA511F;
+ /* background-color: #DA511F;*/
+  color : black;
   display: block;
   font-size: 12px;
   height: 15px;
   padding-bottom: 2px;
   padding-left: 5px;
   padding-top: 1px;
-  text-transform: uppercase;
+ /* text-transform: uppercase;*/
   width: 103px;
   margin-bottom:7px;
 }
@@ -559,12 +561,13 @@ a:focus,
 }
 
 #user-login-form #edit-submit{
-  background-color: white;
+  background-color: #DA511F;
   border: 1px solid #EEEEEE;
+  color: white;
   font-size: 10px;
   height: 19px;
   padding: 0 3px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 #user-login-form div.edit-submit {
